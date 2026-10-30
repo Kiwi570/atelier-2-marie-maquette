@@ -1,0 +1,2977 @@
+{
+  "produits": [
+    {
+      "slug": "sweat-patrouille",
+      "nom": "Sweat patrouille",
+      "nomSite": "Sweat patrouille",
+      "prix": 30.0,
+      "description": [
+        "Sweat à capuche unisexe, motif en flex au dos.",
+        "Cordon de serrage ton sur ton. Poche kangourou.",
+        "Intérieur gratté.",
+        "Couleurs et motif à convenir avec l’atelier."
+      ],
+      "univers": [
+        "scout",
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/sweat-patrouille-1"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "nom-de-la-patrouille",
+          "titre": "Nom de la patrouille",
+          "obligatoire": true
+        },
+        {
+          "cle": "couleur-du-sweat-et-du-motif",
+          "titre": "Couleur du sweat et du motif",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "sweat-saint-michel",
+      "nom": "Sweat Saint Michel",
+      "nomSite": "Sweat Saint Michel",
+      "prix": 40.0,
+      "description": [
+        "Sweat à capuche unisexe, brodé au dos.",
+        "Cordon de serrage ton sur ton (pas de cordons pour les tailles enfants). Poche kangourou.",
+        "Intérieur gratté.",
+        "D’autres couleurs sont possibles : écrivez à l’atelier."
+      ],
+      "univers": [
+        "scout",
+        "religieux",
+        "enfant"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/sweat-saint-michel-1"
+      ],
+      "choix": [
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "12/14ans"
+            },
+            {
+              "nom": "5/6 ans"
+            },
+            {
+              "nom": "7/8ans"
+            },
+            {
+              "nom": "9/11ans"
+            },
+            {
+              "nom": "XS"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "XXL"
+            },
+            {
+              "nom": "3XL"
+            }
+          ]
+        },
+        {
+          "cle": "couleur-du-sweat",
+          "titre": "Couleur du sweat",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#ef2c2c"
+            },
+            {
+              "nom": "vert",
+              "hex": "#485746"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "sweat-jeanne-d-arc",
+      "nom": "Sweat Jeanne d’Arc",
+      "nomSite": "sweat Jeanne d'Arc",
+      "prix": 40.0,
+      "description": [
+        "Sweat à capuche unisexe, brodé au dos.",
+        "Cordon de serrage ton sur ton. Poche kangourou.",
+        "Intérieur gratté."
+      ],
+      "univers": [
+        "scout",
+        "religieux"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/sweat-jeanne-d-arc-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sweat",
+          "titre": "Couleur du sweat",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "vert",
+              "hex": "#485746"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#ef2c2c"
+            }
+          ]
+        },
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "XS"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "XXL"
+            },
+            {
+              "nom": "5/6 ans"
+            },
+            {
+              "nom": "7/8ans"
+            },
+            {
+              "nom": "12/14ans"
+            },
+            {
+              "nom": "9/11ans"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "polo-de-camp",
+      "nom": "Polo de camp",
+      "nomSite": "Polo de camp (flex)",
+      "prix": 18.0,
+      "description": [
+        "Polo de camp à personnaliser en flex avec le motif de votre choix",
+        "Uniquement sur commande"
+      ],
+      "univers": [
+        "scout",
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/polo-de-camp-3",
+        "produits/polo-de-camp-5",
+        "produits/polo-de-camp-4",
+        "produits/polo-de-camp-1",
+        "produits/polo-de-camp-2"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-polo",
+          "titre": "Couleur polo",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "rouge",
+              "hex": "#db1818"
+            },
+            {
+              "nom": "bleu roi",
+              "hex": "#2239D9"
+            },
+            {
+              "nom": "sable",
+              "hex": "#C4B06B"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "vert",
+              "hex": "#3a5b3b"
+            },
+            {
+              "nom": "gris",
+              "hex": "#A29F9F"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "blanc",
+              "hex": "#f9f4f4"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": true,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sweat-maitrise",
+      "nom": "Sweat « Maîtrise »",
+      "nomSite": "Sweat \"Maitrise\"",
+      "prix": 30.0,
+      "description": [
+        "Sweat flexé « Maîtrise ».",
+        "Pour un autre motif, écrivez à l’atelier."
+      ],
+      "univers": [
+        "scout",
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/sweat-maitrise-1",
+        "produits/sweat-maitrise-2",
+        "produits/sweat-maitrise-3",
+        "produits/sweat-maitrise-4",
+        "produits/sweat-maitrise-5",
+        "produits/sweat-maitrise-6"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "lot-de-5-sac-taille-guide-1-offert-flexe",
+      "nom": "Lot de 5 sacs de camp taille guide + 1 offert",
+      "nomSite": "lot de 5 sac taille guide + 1 offert (flexé)",
+      "prix": 45.0,
+      "description": [
+        "5 sacs de camp + 1 sac offert.",
+        "Dimensions : 3 sacs de 50 × 40 cm et 2 sacs de 75 × 50 cm.",
+        "Possibilité de personnaliser le sac offert par la croix Europe, Europa, suf, Riaumont, et le prénom.",
+        "Personnalisation en flex : lavage et repassage sur l’envers."
+      ],
+      "univers": [
+        "scout",
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-2",
+        "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-3",
+        "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sac",
+          "titre": "Couleur du sac",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "gris",
+              "hex": "#aaa4a4"
+            },
+            {
+              "nom": "naturel",
+              "hex": "#f9f3f3"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#df0f33"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        },
+        {
+          "cle": "croix",
+          "titre": "Croix",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "lot-de-5-sac-de-camp-taille-louveteau-1-offert",
+      "nom": "Lot de 5 sacs de camp taille louveteau + 1 offert",
+      "nomSite": "Lot de 5 sac de camp taille louveteau + 1 offert",
+      "prix": 40.0,
+      "description": [
+        "5 sacs de camp + 1 sac offert.",
+        "Dimensions : 50 × 40 cm, taille idéale pour les louveteaux.",
+        "Possibilité de personnaliser le sac offert par la croix Europe, Europa, suf, Riaumont, et le prénom."
+      ],
+      "univers": [
+        "scout",
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-1",
+        "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-2",
+        "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-3"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sac",
+          "titre": "Couleur du sac",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "gris",
+              "hex": "#aaa4a4"
+            },
+            {
+              "nom": "naturel",
+              "hex": "#f9f3f3"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#df0f33"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        },
+        {
+          "cle": "croix",
+          "titre": "Croix",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "lot-de-7-sac-de-camp-1-offert",
+      "nom": "Lot de 7 sacs de camp + 1 offert",
+      "nomSite": null,
+      "prix": 70.0,
+      "description": [],
+      "univers": [
+        "scout",
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/lot-de-7-sacs-de-camp"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": true
+    },
+    {
+      "slug": "mes-5-objets-brode",
+      "nom": "Sac « Mes 5 objets »",
+      "nomSite": "mes 5 objets ( brodé)",
+      "prix": 15.0,
+      "description": [
+        "Sac mes 5 objets (30/25 cm environ)",
+        "Possibilité de rajouter un prénom"
+      ],
+      "univers": [
+        "scout"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/mes-5-objets-brode-1"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sac-de-voyage-initiale-20l",
+      "nom": "Sac de voyage « Initiale » 20 l",
+      "nomSite": "sac de voyage \" Initiale\"20l",
+      "prix": 35.0,
+      "description": [
+        "Sac de voyage 20l brodé. Idéal pour une petite semaine.",
+        "Broderie blanche",
+        "Précisez le style de tissus que vous souhaitez (carreaux, fleurs, rayures)"
+      ],
+      "univers": [
+        "sacs"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/sac-de-voyage-initiale-20l-1",
+        "produits/sac-de-voyage-initiale-20l-2",
+        "produits/sac-de-voyage-initiale-20l-3",
+        "produits/sac-de-voyage-initiale-20l-4",
+        "produits/sac-de-voyage-initiale-20l-5",
+        "produits/sac-de-voyage-initiale-20l-6",
+        "produits/sac-de-voyage-initiale-20l-7",
+        "produits/sac-de-voyage-initiale-20l-8"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sac",
+          "titre": "Couleur du sac",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "gris",
+              "hex": "#aaa4a4"
+            },
+            {
+              "nom": "bordeaux",
+              "hex": "#6b1f2c"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "rose",
+              "hex": "#eb8de6"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#df0f33"
+            },
+            {
+              "nom": "vert",
+              "hex": "#60df89"
+            },
+            {
+              "nom": "bleu roi",
+              "hex": "#1A40F3"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": false
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sac-de-voyage-l-aventure-nous-appelle",
+      "nom": "Sac de voyage « L’aventure nous appelle »",
+      "nomSite": "Sac de voyage \"l'Aventure nous appelle\"",
+      "prix": 35.0,
+      "description": [
+        "Sac de voyage « l’Aventure nous appelle »",
+        "Taille 20l"
+      ],
+      "univers": [
+        "sacs",
+        "scout"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/sac-de-voyage-l-aventure-nous-appelle-1",
+        "produits/sac-de-voyage-initiale-20l-3",
+        "produits/sac-de-voyage-initiale-20l-2",
+        "produits/sac-de-voyage-l-aventure-nous-appelle-2",
+        "produits/sac-de-voyage-initiale-20l-5",
+        "produits/sac-de-voyage-initiale-20l-7"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sac",
+          "titre": "Couleur du sac",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bordeaux",
+              "hex": "#6b1f2c"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#df0f33"
+            },
+            {
+              "nom": "gris",
+              "hex": "#aaa4a4"
+            },
+            {
+              "nom": "vert",
+              "hex": "#60df89"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sac-de-voyage-j-peux-pas-j-ai-scout",
+      "nom": "Sac de voyage « J’peux pas j’ai scout »",
+      "nomSite": "sac de voyage \"J'peux pas j'ai scout\"",
+      "prix": 35.0,
+      "description": [
+        "Sac de voyage 20 l « J’peux pas j’ai scout ». Le foulard peut être personnalisé (pas de double liseré)."
+      ],
+      "univers": [
+        "sacs",
+        "scout"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/sac-de-voyage-j-peux-pas-j-ai-scout-1",
+        "produits/sac-de-voyage-initiale-20l-2",
+        "produits/sac-de-voyage-initiale-20l-3",
+        "produits/sac-de-voyage-initiale-20l-4",
+        "produits/sac-de-voyage-initiale-20l-7",
+        "produits/sac-de-voyage-initiale-20l-5"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "couleur-du-foulard",
+          "titre": "Couleur du foulard",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sac-initiale-brodee",
+      "nom": "Sac « Initiale » 12 l brodé",
+      "nomSite": "Sac Initiale 12l brodée",
+      "prix": 30.0,
+      "description": [
+        "Sac de voyage 12 l, initiale coupée.",
+        "Broderie blanche",
+        "Précisez le style de tissus que vous souhaitez (carreaux, fleurs, rayures)"
+      ],
+      "univers": [
+        "sacs"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/sac-initiale-brodee-1",
+        "produits/sac-initiale-brodee-2",
+        "produits/sac-initiale-brodee-3",
+        "produits/sac-initiale-brodee-4",
+        "produits/sac-de-voyage-initiale-20l-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sac",
+          "titre": "Couleur du sac",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "rose",
+              "hex": "#eb8de6"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#df0f33"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        },
+        {
+          "cle": "tissu-raye-fleurs-ou-carreaux",
+          "titre": "Tissu (rayé, fleurs ou carreaux)",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false,
+      "couleurImages": {
+        "bleu marine": "produits/sac-initiale-brodee-1",
+        "rouge": "produits/sac-initiale-brodee-2",
+        "noir": "produits/sac-initiale-brodee-3",
+        "rose": "produits/sac-initiale-brodee-4"
+      }
+    },
+    {
+      "slug": "sac-prenom",
+      "nom": "Sac « Prénom »",
+      "nomSite": "Sac \"prénom\"",
+      "prix": 25.0,
+      "description": [
+        "Sac de voyage 12l à personnaliser par un prénom."
+      ],
+      "univers": [
+        "sacs",
+        "enfant"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/sac-prenom-1",
+        "produits/sac-initiale-brodee-4",
+        "produits/sac-initiale-brodee-2",
+        "produits/sac-initiale-brodee-3",
+        "produits/sac-initiale-brodee-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sac",
+          "titre": "Couleur du sac",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "rose",
+              "hex": "#eb8de6"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#df0f33"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            }
+          ],
+          "defaut": "noir"
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        },
+        {
+          "cle": "couleur-de-la-broderie",
+          "titre": "Couleur de la broderie",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false,
+      "couleurImages": {
+        "bleu marine": "produits/sac-initiale-brodee-1",
+        "rouge": "produits/sac-initiale-brodee-2",
+        "noir": "produits/sac-initiale-brodee-3",
+        "rose": "produits/sac-initiale-brodee-4"
+      }
+    },
+    {
+      "slug": "polo-j-peux-pas",
+      "nom": "Polo « J’peux pas j’ai pélé »",
+      "nomSite": "Polo \" j'peux pas....\"",
+      "prix": 27.0,
+      "description": [
+        "Polo « J’peux pas j’ai pélé ».",
+        "Coton 210 g, patte de propreté au col.",
+        "Personnalisation :",
+        "Polo bleu marine : motif jaune ou blanc",
+        "Polo vert : motif blanc",
+        "Polo rouge: motif blanc",
+        "Polo blanc: motif rouge bleu marine",
+        "Polo noir: motif blanc, rouge ou corail"
+      ],
+      "univers": [
+        "religieux",
+        "enfant"
+      ],
+      "occasions": [
+        "foi",
+        "peres",
+        "meres"
+      ],
+      "techniques": [],
+      "images": [
+        "produits/polo-j-peux-pas-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-polo",
+          "titre": "Couleur polo",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "blanc",
+              "hex": "#f9f4f4"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#db1818"
+            },
+            {
+              "nom": "vert",
+              "hex": "#3a5b3b"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sachet-de-dragees",
+      "nom": "Sachet de dragées",
+      "nomSite": "sachet de dragées",
+      "prix": 2.5,
+      "description": [
+        "Sachets de dragées en coton milleraies, à personnaliser par un prénom, un motif ou une date."
+      ],
+      "univers": [
+        "religieux"
+      ],
+      "occasions": [
+        "foi"
+      ],
+      "techniques": [
+        "vinyle"
+      ],
+      "images": [
+        "produits/sachet-de-dragees-1",
+        "produits/sachet-de-dragees-2",
+        "produits/sachet-de-dragees-3"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sticker",
+          "titre": "Couleur du sticker",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "framboise",
+              "hex": "#b745d9"
+            },
+            {
+              "nom": "jaune orangé",
+              "hex": "#f5cc28"
+            },
+            {
+              "nom": "rose",
+              "hex": "#f591eb"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#d70a0a"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        },
+        {
+          "cle": "date-ou-numero-de-motif",
+          "titre": "Date ou numéro de motif",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "cierge-sacrement",
+      "nom": "Cierge « Sacrement »",
+      "nomSite": "Cierge \" sacrement\"",
+      "prix": 30.0,
+      "description": [
+        "Cierge personnalisé des deux côtés :",
+        "Côté 1 : le Saint patron.",
+        "Côté 2 : les dates importantes de la vie chrétienne.",
+        "Il reste même une place pour une date d’ordination, de vœux ou de mariage !",
+        "La personnalisation est un vinyle très collant qui reste appliqué sur la bougie."
+      ],
+      "univers": [
+        "religieux"
+      ],
+      "occasions": [
+        "foi"
+      ],
+      "techniques": [
+        "vinyle"
+      ],
+      "images": [
+        "produits/cierge-sacrement-1",
+        "produits/cierge-sacrement-2"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sticker",
+          "titre": "Couleur du sticker",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "doré",
+              "hex": "#9a7c16"
+            },
+            {
+              "nom": "framboise",
+              "hex": "#b745d9"
+            },
+            {
+              "nom": "turquoise",
+              "hex": "#11a899"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "saint-patron",
+          "titre": "Saint patron",
+          "obligatoire": false
+        },
+        {
+          "cle": "dates-importantes-de-la-vie-chretienne",
+          "titre": "Dates importantes de la vie chrétienne",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "bougie-famille",
+      "nom": "Bougie famille",
+      "nomSite": "Bougie famille",
+      "prix": 30.0,
+      "description": [
+        "Bougie famille à personnaliser avec les prénoms et les dates importantes de la famille",
+        "Jusqu’à 6 prénoms et dates au dos ; prénoms et saint patron sur le devant.",
+        "23 cm non parfumée"
+      ],
+      "univers": [
+        "religieux"
+      ],
+      "occasions": [],
+      "techniques": [
+        "vinyle"
+      ],
+      "images": [
+        "produits/bougie-famille-1",
+        "produits/bougie-famille-2"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sticker",
+          "titre": "Couleur du sticker",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "rouge",
+              "hex": "#d70a0a"
+            },
+            {
+              "nom": "doré",
+              "hex": "#9a7c16"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "turquoise",
+              "hex": "#11a899"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenoms-et-dates",
+          "titre": "Prénoms et dates",
+          "obligatoire": true
+        },
+        {
+          "cle": "saint-patron",
+          "titre": "Saint patron",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "mes-livres-pour-la-messe",
+      "nom": "Sac « Mes livres pour la messe » brodé",
+      "nomSite": "Mes livres pour la messe (brodé)",
+      "prix": 15.0,
+      "description": [
+        "Sac en toile de jute. Anses en coton de 35cm.",
+        "Possibilité de rajouter un prénom et de choisir la couleur"
+      ],
+      "univers": [
+        "religieux",
+        "enfant"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/mes-livres-pour-la-messe-1"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": false
+        },
+        {
+          "cle": "couleur-de-la-broderie",
+          "titre": "Couleur de la broderie",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "mes-livres-pour-la-messe-applique",
+      "nom": "Sac « Mes livres pour la messe » appliqué",
+      "nomSite": "mes livres pour la messe appliqué",
+      "prix": 17.0,
+      "description": [
+        "Toile de jute. Anses en coton de 35cm.",
+        "Possibilité de rajouter au dos un prénom et de choisir la couleur de la broderie"
+      ],
+      "univers": [
+        "religieux",
+        "enfant"
+      ],
+      "occasions": [],
+      "techniques": [
+        "applique",
+        "broderie"
+      ],
+      "images": [
+        "produits/mes-livres-pour-la-messe-applique-1"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": false
+        },
+        {
+          "cle": "couleur-de-la-broderie",
+          "titre": "Couleur de la broderie",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "santon-saint-charles-de-foucauld",
+      "nom": "Santon Saint Charles de Foucauld",
+      "nomSite": "Santon Saint Charles de Foucauld",
+      "prix": 10.5,
+      "description": [
+        "Santon peint à la main",
+        "7 cm"
+      ],
+      "univers": [
+        "santons"
+      ],
+      "occasions": [
+        "noel"
+      ],
+      "techniques": [
+        "peint"
+      ],
+      "images": [
+        "produits/santon-saint-charles-de-foucauld-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "santon-saint-francois-d-assise",
+      "nom": "Santon Saint François d’Assise",
+      "nomSite": "Santon Saint François d'Assise",
+      "prix": 10.5,
+      "description": [
+        "Santon peint à la main",
+        "Uniquement sur commande",
+        "Taille 7cm"
+      ],
+      "univers": [
+        "santons"
+      ],
+      "occasions": [
+        "noel"
+      ],
+      "techniques": [
+        "peint"
+      ],
+      "images": [
+        "produits/santon-saint-francois-d-assise-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": true,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sweat-charette",
+      "nom": "Sweat « Charette »",
+      "nomSite": "sweat \"Charette\"",
+      "prix": 45.0,
+      "description": [
+        "Sweat « Charette » brodé",
+        "Taille du 9/11 ans au 3XL"
+      ],
+      "univers": [
+        "puydufou"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/sweat-charette-1",
+        "produits/sweat-charette-2"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sweat",
+          "titre": "Couleur du sweat",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#ef2c2c"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "rose",
+              "hex": "#F1AFF1"
+            },
+            {
+              "nom": "vert",
+              "hex": "#485746"
+            },
+            {
+              "nom": "vert frais",
+              "hex": "#1B921E"
+            },
+            {
+              "nom": "framboise ecrasée",
+              "hex": "#5B0C12"
+            }
+          ]
+        },
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "12/13ans"
+            },
+            {
+              "nom": "12/14ans"
+            },
+            {
+              "nom": "2XL"
+            },
+            {
+              "nom": "3XL"
+            },
+            {
+              "nom": "9/11ans"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "XS"
+            },
+            {
+              "nom": "XXL"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "polaire",
+      "nom": "Polaire « J’peux pas j’ai Puy du Fou »",
+      "nomSite": "Polaire",
+      "prix": 40.0,
+      "description": [
+        "Avec ou sans manches brodées"
+      ],
+      "univers": [
+        "puydufou"
+      ],
+      "occasions": [
+        "noel"
+      ],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/polaire-1",
+        "produits/polaire-2"
+      ],
+      "choix": [
+        {
+          "cle": "manches",
+          "titre": "Manches",
+          "type": "liste",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "Avec"
+            },
+            {
+              "nom": "Sans"
+            }
+          ]
+        },
+        {
+          "cle": "couleur-polaire",
+          "titre": "Couleur polaire",
+          "type": "liste",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine"
+            },
+            {
+              "nom": "noir"
+            }
+          ]
+        },
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "12/13ans"
+            },
+            {
+              "nom": "12/14ans"
+            },
+            {
+              "nom": "2XL"
+            },
+            {
+              "nom": "3/4 ans"
+            },
+            {
+              "nom": "3XL"
+            },
+            {
+              "nom": "5/6 ans"
+            },
+            {
+              "nom": "7/8ans"
+            },
+            {
+              "nom": "9/11ans"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "XS"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sweat-j-peux-pas-j-ai-puy-du-fou-1",
+      "nom": "Sweat zippé « J’peux pas j’ai Puy du Fou »",
+      "nomSite": "Sweat \"J'peux pas j'ai puy du fou\"",
+      "prix": 35.0,
+      "description": [
+        "Sweat à capuche avec fermeture éclair flexé"
+      ],
+      "univers": [
+        "puydufou"
+      ],
+      "occasions": [
+        "noel"
+      ],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/sweat-j-peux-pas-j-ai-puy-du-fou-1-1",
+        "produits/sweat-j-peux-pas-j-ai-puy-du-fou-1-2"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sweat",
+          "titre": "Couleur du sweat",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            }
+          ]
+        },
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "5/6 ans"
+            },
+            {
+              "nom": "7/8ans"
+            },
+            {
+              "nom": "9/11ans"
+            },
+            {
+              "nom": "2XL"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "XS"
+            },
+            {
+              "nom": "12/13ans"
+            },
+            {
+              "nom": "12/14ans"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sweat-j-peux-pas-j-ai-puy-du-fou",
+      "nom": "Sweat « J’peux pas j’ai Puy du Fou » brodé",
+      "nomSite": "Sweat \"J'peux pas j'ai puy du Fou\" brodé",
+      "prix": 40.0,
+      "description": [
+        "Sweat à capuche « J’peux pas j’ai Puy du Fou » brodé"
+      ],
+      "univers": [
+        "puydufou"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/sweat-j-peux-pas-j-ai-puy-du-fou-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sweat",
+          "titre": "Couleur du sweat",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "vert",
+              "hex": "#485746"
+            }
+          ]
+        },
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "XS"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "2XL"
+            },
+            {
+              "nom": "3XL"
+            },
+            {
+              "nom": "3/4 ans"
+            },
+            {
+              "nom": "5/6 ans"
+            },
+            {
+              "nom": "7/8ans"
+            },
+            {
+              "nom": "9/11ans"
+            },
+            {
+              "nom": "12/13ans"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sweat-jpeux-pas-jai-puy-du-fou-flex",
+      "nom": "Sweat « J’peux pas j’ai Puy du Fou » flex",
+      "nomSite": "Sweat \"J'peux pas j'ai puy du Fou\" Flex",
+      "prix": 35.0,
+      "description": [
+        "Sweat à capuche « J’peux pas j’ai Puy du Fou » flexé"
+      ],
+      "univers": [
+        "puydufou"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/sweat-j-peux-pas-j-ai-puy-du-fou-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sweat",
+          "titre": "Couleur du sweat",
+          "type": "couleur",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "vert",
+              "hex": "#485746"
+            }
+          ]
+        },
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "3/4 ans"
+            },
+            {
+              "nom": "5/6 ans"
+            },
+            {
+              "nom": "7/8ans"
+            },
+            {
+              "nom": "9/11ans"
+            },
+            {
+              "nom": "12/14ans"
+            },
+            {
+              "nom": "XS"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "XXL"
+            },
+            {
+              "nom": "3XL"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "bonnet-en-polaire",
+      "nom": "Bonnet en polaire « J’peux pas j’ai Puy du Fou »",
+      "nomSite": "Bonnet en polaire",
+      "prix": 15.0,
+      "description": [
+        "Bonnet en polaire « J’peux pas j’ai Puy du Fou » Brodé"
+      ],
+      "univers": [
+        "puydufou"
+      ],
+      "occasions": [
+        "noel"
+      ],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/bonnet-en-polaire-1"
+      ],
+      "choix": [
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "S/M"
+            },
+            {
+              "nom": "L/XL"
+            }
+          ]
+        },
+        {
+          "cle": "couleur",
+          "titre": "Couleur",
+          "type": "couleur",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "gris",
+              "hex": "#A29F9F"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "tee-shirt-jpeux-pas-jai-puy-du-fou",
+      "nom": "Tee-shirt « J’peux pas j’ai Puy du Fou »",
+      "nomSite": "tee-Shirt \"j'peux pas j'ai Puy du fou\"",
+      "prix": 18.0,
+      "description": [
+        "Tee-shirt « J’peux pas j’ai Puy du Fou ».",
+        "Pour une autre couleur, écrivez à l’atelier."
+      ],
+      "univers": [
+        "puydufou"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/tee-shirt-jpeux-pas-jai-puy-du-fou-1",
+        "produits/tee-shirt-jpeux-pas-jai-puy-du-fou-2"
+      ],
+      "choix": [
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "5/6 ans"
+            },
+            {
+              "nom": "7/8ans"
+            },
+            {
+              "nom": "9/11ans"
+            },
+            {
+              "nom": "12/14ans"
+            },
+            {
+              "nom": "XS"
+            },
+            {
+              "nom": "S"
+            },
+            {
+              "nom": "L"
+            },
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "XL"
+            },
+            {
+              "nom": "XXL"
+            },
+            {
+              "nom": "3XL"
+            }
+          ]
+        },
+        {
+          "cle": "couleur-du-tee-shirt",
+          "titre": "Couleur du tee-shirt",
+          "type": "couleur",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "noir",
+              "hex": "#1b1b1d"
+            },
+            {
+              "nom": "gris clair",
+              "hex": "#CECCCC"
+            },
+            {
+              "nom": "vert bouteille",
+              "hex": "#385742"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "pochette-brodee",
+      "nom": "Pochette brodée « Coquette »",
+      "nomSite": "Pochette brodée",
+      "prix": 15.0,
+      "description": [
+        "Pochette brodée",
+        "Possibilité de rajouter un prénom au dos",
+        "Taille M: 19x18x9",
+        "Taille L: 23x23x11"
+      ],
+      "univers": [
+        "enfant"
+      ],
+      "occasions": [
+        "meres"
+      ],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/pochette-brodee-1",
+        "produits/pochette-brodee-2"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-de-la-trousse",
+          "titre": "Couleur de la trousse",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "naturel",
+              "hex": "#F5F5E9"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            }
+          ]
+        },
+        {
+          "cle": "taille",
+          "titre": "Taille",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "L"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": false
+        },
+        {
+          "cle": "texte-brode-coquette-pipelette-audacieus",
+          "titre": "Texte brodé (Coquette, Pipelette, Audacieuse, Mère-Veilleuse…)",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "pochette-brodee-1",
+      "nom": "Pochette brodée « Maman en Or »",
+      "nomSite": "pochette brodée",
+      "prix": 15.0,
+      "description": [
+        "Pochette brodée",
+        "Possibilité de rajouter un prénom au dos",
+        "Taille M: 19x18x9",
+        "Taille L: 23x23x11"
+      ],
+      "univers": [
+        "enfant"
+      ],
+      "occasions": [
+        "meres"
+      ],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/pochette-brodee-1-1",
+        "produits/pochette-brodee-1-2"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-de-la-trousse",
+          "titre": "Couleur de la trousse",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "naturel",
+              "hex": "#F5F5E9"
+            }
+          ]
+        },
+        {
+          "cle": "taille-de-la-pochette",
+          "titre": "Taille de la pochette",
+          "type": "liste",
+          "obligatoire": true,
+          "valeurs": [
+            {
+              "nom": "M"
+            },
+            {
+              "nom": "L"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": false
+        },
+        {
+          "cle": "texte-brode-maman-en-or-mamie-en-or-gran",
+          "titre": "Texte brodé (Maman en Or, Mamie en Or, Grand-Mère en Or…)",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "sac-chasse-a-l-uf",
+      "nom": "Sac « Chasse à l’œuf »",
+      "nomSite": "Sac \"Chasse à l'Œuf\"",
+      "prix": 15.0,
+      "description": [
+        "Sac en jute 100% coton à personnaliser par un prénom",
+        "26x22x14cm. 6 litres"
+      ],
+      "univers": [
+        "enfant"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/sac-chasse-a-l-uf-1"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "porte-monnaie-flex",
+      "nom": "Porte-monnaie",
+      "nomSite": "porte monnaie (flex)",
+      "prix": 13.0,
+      "description": [
+        "Porte-monnaie à personnaliser par un prénom",
+        "Personnalisation en flex."
+      ],
+      "univers": [
+        "enfant"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/porte-monnaie-flex-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-porte-monnaie",
+          "titre": "Couleur du porte monnaie",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#D70A1E"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucle-d-oreille-pampille",
+      "nom": "Boucles d’oreilles « Pampille »",
+      "nomSite": "Boucles d'oreilles \" pampille\"",
+      "prix": 10.0,
+      "description": [
+        "Boucle d’oreille créole avec pampille en résine",
+        "La créole est en acier inoxydable et mesure 2cm"
+      ],
+      "univers": [
+        "bijoux"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucle-d-oreille-pampille-1",
+        "produits/boucle-d-oreille-pampille-4"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-des-pampilles",
+          "titre": "Couleur des pampilles",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "rouge",
+              "hex": "#D21414"
+            },
+            {
+              "nom": "fuchia",
+              "hex": "#BC0B90"
+            },
+            {
+              "nom": "orange",
+              "hex": "#EB7A09"
+            },
+            {
+              "nom": "vert",
+              "hex": "#20631C"
+            },
+            {
+              "nom": "violet",
+              "hex": "#771877"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "bleu clair",
+              "hex": "#0EAAE5"
+            },
+            {
+              "nom": "jaune",
+              "hex": "#E3E90F"
+            },
+            {
+              "nom": "gris",
+              "hex": "#A09A9A"
+            },
+            {
+              "nom": "marron",
+              "hex": "#512121"
+            }
+          ]
+        },
+        {
+          "cle": "forme-de-la-pampille",
+          "titre": "Forme de la pampille",
+          "type": "liste",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "Étoile"
+            },
+            {
+              "nom": "Fleur"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucles-d-oreilles",
+      "nom": "Boucles d’oreilles en bois n° 2",
+      "nomSite": "boucles d'oreilles",
+      "prix": 10.0,
+      "description": [
+        "Boucles d’oreilles en bois."
+      ],
+      "univers": [
+        "bijoux",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucles-d-oreilles-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucles-d-oreilles-1",
+      "nom": "Boucles d’oreilles en bois n° 3",
+      "nomSite": "Boucles d'oreilles",
+      "prix": 10.0,
+      "description": [
+        "Boucles d’oreilles en bois"
+      ],
+      "univers": [
+        "bijoux",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucles-d-oreilles-1-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucles-d-oreilles-2",
+      "nom": "Boucles d’oreilles en bois n° 4",
+      "nomSite": "Boucles d'oreilles",
+      "prix": 10.0,
+      "description": [
+        "Boucles d’oreilles en bois"
+      ],
+      "univers": [
+        "bijoux",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucles-d-oreilles-2-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucles-d-oreilles-3",
+      "nom": "Boucles d’oreilles en bois n° 5",
+      "nomSite": "Boucles d'oreilles",
+      "prix": 10.0,
+      "description": [
+        "Boucles d’oreilles en bois"
+      ],
+      "univers": [
+        "bijoux",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucles-d-oreilles-3-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucles-d-oreilles-4",
+      "nom": "Boucles d’oreilles en bois n° 6",
+      "nomSite": "Boucles d'oreilles",
+      "prix": 10.0,
+      "description": [
+        "Boucles d’oreilles en bois"
+      ],
+      "univers": [
+        "bijoux",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucles-d-oreilles-4-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucles-d-oreilles-5",
+      "nom": "Boucles d’oreilles en bois n° 7",
+      "nomSite": "Boucles d'oreilles",
+      "prix": 10.0,
+      "description": [
+        "Boucles d’oreilles en bois"
+      ],
+      "univers": [
+        "bijoux",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucles-d-oreilles-5-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "boucles-d-oreilles-6",
+      "nom": "Boucles d’oreilles en bois n° 8",
+      "nomSite": "Boucles d'oreilles",
+      "prix": 10.0,
+      "description": [
+        "Boucles d’oreilles en bois"
+      ],
+      "univers": [
+        "bijoux",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/boucles-d-oreilles-6-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "support-pour-boule-de-noel",
+      "nom": "Support pour boule de Noël",
+      "nomSite": "support pour boule de Noël",
+      "prix": 18.0,
+      "description": [
+        "Support pour Boule de Noël en bois (contreplaqué peuplier 3mm)",
+        "Livré sans boule de Noël"
+      ],
+      "univers": [
+        "bois"
+      ],
+      "occasions": [
+        "noel"
+      ],
+      "techniques": [],
+      "images": [
+        "produits/support-pour-boule-de-noel-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "serviettes-de-tables-phare",
+      "nom": "12 serviettes de table « Phare »",
+      "nomSite": "serviettes de tables \" Phare\"",
+      "prix": 50.0,
+      "description": [
+        "12 serviettes « Phare »",
+        "Taille 45/45 cm environ",
+        "100 % coton",
+        "Couleur aléatoire pour la broderie",
+        "Serviettes unies : couleur de la broderie au choix, à préciser dans votre message."
+      ],
+      "univers": [
+        "maison"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/serviettes-de-tables-phare-1",
+        "produits/serviettes-de-tables-phare-2",
+        "produits/serviettes-de-tables-phare-3"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "couleurs-souhaitees-unie-ou-bicolore",
+          "titre": "Couleurs souhaitées (unie ou bicolore)",
+          "obligatoire": false
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "serviettes-de-table-hermine",
+      "nom": "12 serviettes de table « Hermine »",
+      "nomSite": "serviettes de table \" Hermine\"",
+      "prix": 50.0,
+      "description": [
+        "12 serviettes de table brodées « Hermine »",
+        "Taille 45/45 cm environ",
+        "100% coton",
+        "Couleur aléatoire pour la broderie",
+        "Serviettes unies : couleur de la broderie au choix, à préciser dans votre message."
+      ],
+      "univers": [
+        "maison"
+      ],
+      "occasions": [],
+      "techniques": [
+        "broderie"
+      ],
+      "images": [
+        "produits/serviettes-de-table-hermine-1",
+        "produits/serviettes-de-table-hermine-2",
+        "produits/serviettes-de-table-hermine-3"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "couleurs-souhaitees-unie-ou-bicolore",
+          "titre": "Couleurs souhaitées (unie ou bicolore)",
+          "obligatoire": false
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": true,
+      "aCompleter": false
+    },
+    {
+      "slug": "tablier-jardin-de-versailles",
+      "nom": "Tablier « Jardin de Versailles »",
+      "nomSite": "Tablier Jardin de Versailles",
+      "prix": 35.0,
+      "description": [
+        "Tablier de cuisine adulte, une poche de chaque côté, boucle en métal au cou.",
+        "Couleur tablier : bleu marine, rouge, beige",
+        "Dimensions : hauteur 85 cm et largeur 75 cm."
+      ],
+      "univers": [
+        "maison"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/tablier-jardin-de-versailles-1",
+        "produits/tablier-jardin-de-versailles-2",
+        "produits/tablier-jardin-de-versailles-3",
+        "produits/tablier-jardin-de-versailles-4",
+        "produits/tablier-jardin-de-versailles-5",
+        "produits/tablier-jardin-de-versailles-6"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-tablier",
+          "titre": "Couleur tablier",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "rouge",
+              "hex": "#EF1C1C"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "beige",
+              "hex": "#DFDFC7"
+            }
+          ]
+        }
+      ],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "rond-de-serviette",
+      "nom": "Rond de serviette en hêtre",
+      "nomSite": "rond de serviette",
+      "prix": 6.5,
+      "description": [
+        "Rond de serviette en bois de hêtre",
+        "Dimension :4.9 cm de diamètre extérieur 4 cm de diamètre intérieur et 3.1 cm de haut environ"
+      ],
+      "univers": [
+        "maison",
+        "bois"
+      ],
+      "occasions": [
+        "meres"
+      ],
+      "techniques": [
+        "vinyle"
+      ],
+      "images": [
+        "produits/rond-de-serviette-1"
+      ],
+      "choix": [
+        {
+          "cle": "ecriture",
+          "titre": "Écriture",
+          "type": "liste",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "Bâton"
+            },
+            {
+              "nom": "Attachée"
+            }
+          ]
+        },
+        {
+          "cle": "couleur-du-sticker",
+          "titre": "Couleur du sticker",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "doré",
+              "hex": "#9a7c16"
+            },
+            {
+              "nom": "framboise",
+              "hex": "#b745d9"
+            },
+            {
+              "nom": "jaune orangé",
+              "hex": "#f5cc28"
+            },
+            {
+              "nom": "rose",
+              "hex": "#f591eb"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#d70a0a"
+            },
+            {
+              "nom": "turquoise",
+              "hex": "#11a899"
+            },
+            {
+              "nom": "vert foncé",
+              "hex": "#2d5d3c"
+            },
+            {
+              "nom": "vert clair",
+              "hex": "#17c832"
+            },
+            {
+              "nom": "bleu clair",
+              "hex": "#0fe1f9"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "rond-de-serviette-en-bois-du-jura",
+      "nom": "Rond de serviette en bois du Jura",
+      "nomSite": "Rond de serviette en bois du Jura",
+      "prix": 6.5,
+      "description": [
+        "Rond de serviette en bois du Jura non vernis à personnaliser",
+        "Diamètre intérieur : 4cm environ.",
+        "Hauteur : 3.7cm environ.",
+        "Made in France."
+      ],
+      "univers": [
+        "maison",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [
+        "vinyle"
+      ],
+      "images": [
+        "produits/rond-de-serviette-en-bois-du-jura-1"
+      ],
+      "choix": [
+        {
+          "cle": "couleur-du-sticker",
+          "titre": "Couleur du sticker",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "rouge",
+              "hex": "#d70a0a"
+            },
+            {
+              "nom": "jaune",
+              "hex": "#EFEF3E"
+            },
+            {
+              "nom": "jaune orangé",
+              "hex": "#f5cc28"
+            },
+            {
+              "nom": "rose",
+              "hex": "#f591eb"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "doré",
+              "hex": "#9a7c16"
+            },
+            {
+              "nom": "vert pomme",
+              "hex": "#27DB07"
+            },
+            {
+              "nom": "turquoise",
+              "hex": "#11a899"
+            },
+            {
+              "nom": "framboise",
+              "hex": "#b745d9"
+            }
+          ]
+        },
+        {
+          "cle": "ecriture",
+          "titre": "Écriture",
+          "type": "liste",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "grand hotel"
+            },
+            {
+              "nom": "Lucida calligraphy"
+            },
+            {
+              "nom": "MV Boli"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "coquetier-rond-de-serviette",
+      "nom": "Coquetier et rond de serviette",
+      "nomSite": "Coquetier+ rond de serviette",
+      "prix": 12.0,
+      "description": [
+        "Coquetier et rond de serviette en bois de hêtre à personnaliser"
+      ],
+      "univers": [
+        "maison",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [
+        "vinyle"
+      ],
+      "images": [
+        "produits/coquetier-rond-de-serviette-1",
+        "produits/coquetier-rond-de-serviette-2"
+      ],
+      "choix": [
+        {
+          "cle": "ecriture",
+          "titre": "Écriture",
+          "type": "liste",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "Attachée"
+            },
+            {
+              "nom": "Bâton"
+            }
+          ]
+        },
+        {
+          "cle": "couleur-du-sticker",
+          "titre": "Couleur du sticker",
+          "type": "couleur",
+          "obligatoire": false,
+          "valeurs": [
+            {
+              "nom": "bleu clair",
+              "hex": "#0fe1f9"
+            },
+            {
+              "nom": "bleu marine",
+              "hex": "#1f2a4a"
+            },
+            {
+              "nom": "doré",
+              "hex": "#9a7c16"
+            },
+            {
+              "nom": "framboise",
+              "hex": "#b745d9"
+            },
+            {
+              "nom": "jaune orangé",
+              "hex": "#f5cc28"
+            },
+            {
+              "nom": "rose",
+              "hex": "#f591eb"
+            },
+            {
+              "nom": "rouge",
+              "hex": "#d70a0a"
+            },
+            {
+              "nom": "turquoise",
+              "hex": "#11a899"
+            },
+            {
+              "nom": "vert clair",
+              "hex": "#17c832"
+            },
+            {
+              "nom": "vert foncé",
+              "hex": "#2d5d3c"
+            }
+          ]
+        }
+      ],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": true
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false
+    },
+    {
+      "slug": "coquetier",
+      "nom": "Coquetier",
+      "nomSite": null,
+      "prix": 7.0,
+      "description": [],
+      "univers": [
+        "maison",
+        "bois"
+      ],
+      "occasions": [],
+      "techniques": [],
+      "images": [
+        "produits/coquetiers-prenoms"
+      ],
+      "choix": [],
+      "textes": [
+        {
+          "cle": "prenom",
+          "titre": "Prénom",
+          "obligatoire": false
+        }
+      ],
+      "personnalise": true,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": true
+    },
+    {
+      "slug": "sweat-entreprise",
+      "nom": "Sweat entreprise",
+      "nomSite": "Sweat entreprise",
+      "prix": 40.0,
+      "description": [
+        "Sweat entreprise avec ou sans capuche flex ou brodé",
+        "Tarif en fonction du logo",
+        "Uniquement sur commande",
+        "Tarif en fonction du nombre"
+      ],
+      "univers": [
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex",
+        "broderie"
+      ],
+      "images": [
+        "produits/sweat-entreprise-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": true,
+      "nouveaute": false,
+      "aCompleter": false,
+      "surDevis": true
+    },
+    {
+      "slug": "tee-shirt-entreprise-flex",
+      "nom": "Tee-shirt entreprise",
+      "nomSite": "Tee-shirt entreprise (flex)",
+      "prix": 18.0,
+      "description": [
+        "Tee-shirt entreprise : modèle et prix à convenir avec l’atelier."
+      ],
+      "univers": [
+        "groupes"
+      ],
+      "occasions": [],
+      "techniques": [
+        "flex"
+      ],
+      "images": [
+        "produits/tee-shirt-entreprise-flex-1"
+      ],
+      "choix": [],
+      "textes": [],
+      "personnalise": false,
+      "surCommande": false,
+      "nouveaute": false,
+      "aCompleter": false,
+      "surDevis": true
+    }
+  ],
+  "univers": [
+    {
+      "cle": "scout",
+      "nom": "Scout",
+      "nombre": 11,
+      "desPrix": 15.0
+    },
+    {
+      "cle": "religieux",
+      "nom": "Religieux",
+      "nombre": 8,
+      "desPrix": 2.5
+    },
+    {
+      "cle": "puydufou",
+      "nom": "Puy du Fou",
+      "nombre": 7,
+      "desPrix": 15.0
+    },
+    {
+      "cle": "enfant",
+      "nom": "Enfant",
+      "nombre": 9,
+      "desPrix": 13.0
+    },
+    {
+      "cle": "sacs",
+      "nom": "Sacs de voyage",
+      "nombre": 5,
+      "desPrix": 25.0
+    },
+    {
+      "cle": "maison",
+      "nom": "Maison et table",
+      "nombre": 7,
+      "desPrix": 6.5
+    },
+    {
+      "cle": "bijoux",
+      "nom": "Bijoux",
+      "nombre": 8,
+      "desPrix": 10.0
+    },
+    {
+      "cle": "bois",
+      "nom": "Bois",
+      "nombre": 12,
+      "desPrix": 6.5
+    },
+    {
+      "cle": "santons",
+      "nom": "Santons",
+      "nombre": 2,
+      "desPrix": 10.5
+    },
+    {
+      "cle": "groupes",
+      "nom": "Entreprises et groupes",
+      "nombre": 8,
+      "desPrix": 18.0
+    }
+  ],
+  "occasions": [
+    {
+      "cle": "noel",
+      "nom": "Idées pour Noël",
+      "nombre": 6
+    },
+    {
+      "cle": "foi",
+      "nom": "Fêtes de la Foi",
+      "nombre": 3
+    },
+    {
+      "cle": "peres",
+      "nom": "Fête des pères",
+      "nombre": 1
+    },
+    {
+      "cle": "meres",
+      "nom": "Fête des mères",
+      "nombre": 4
+    }
+  ],
+  "techniques": [
+    {
+      "cle": "broderie",
+      "nom": "Brodé"
+    },
+    {
+      "cle": "flex",
+      "nom": "Flex"
+    },
+    {
+      "cle": "vinyle",
+      "nom": "Vinyle"
+    },
+    {
+      "cle": "applique",
+      "nom": "Appliqué"
+    },
+    {
+      "cle": "peint",
+      "nom": "Peint à la main"
+    }
+  ]
+}

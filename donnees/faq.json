@@ -1,0 +1,19 @@
+{
+  "boutique": [
+    { "q": "Combien de temps faut-il pour recevoir ma commande ?", "r": "La plupart des articles sont personnalisés à la commande : comptez environ trois semaines de fabrication, puis l’envoi ou le retrait à l’atelier." },
+    { "q": "Puis-je demander une autre couleur ou un autre motif ?", "r": "Oui : plusieurs fiches le précisent (« me contacter pour d’autres couleurs »). Écrivez à l’atelier avant de commander." },
+    { "q": "Puis-je retourner un article personnalisé ?", "r": "Un article fabriqué selon vos demandes (prénom, texte, motif choisi) ne peut pas être retourné pour un simple changement d’avis. Un article défectueux reste couvert par les garanties légales." }
+  ],
+  "groupes": [
+    { "q": "Le tarif change-t-il selon le nombre d’articles ?", "r": "Pour les sweats et tee-shirts d’entreprise, l’atelier indique un tarif en fonction du logo et du nombre. Le devis le précise." },
+    { "q": "Que contient un lot de sacs de camp ?", "r": "Cinq sacs de camp et un sixième offert, qui peut être personnalisé avec une croix (Europe, Europa, SUF, Riaumont) et un prénom. Il existe un lot taille louveteau (50 × 40 cm), un lot taille guide (trois sacs de 50 × 40 cm et deux de 75 × 50 cm) et un lot de sept sacs." },
+    { "q": "Peut-on proposer son propre motif ?", "r": "Oui : le sweat « Maîtrise » et le polo de camp se font avec le motif de votre choix. Joignez-le à la demande de devis." },
+    { "q": "Combien de temps faut-il prévoir avant un camp ?", "r": "Environ trois semaines de fabrication une fois la commande validée. Indiquez la date souhaitée dans la demande." }
+  ],
+  "infos": [
+    { "q": "Comment entretenir un article en flex ?", "r": "L’atelier indique un lavage et un repassage sur l’envers." },
+    { "q": "Puis-je voir la couleur d’un fil ou d’un tissu avant de commander ?", "r": "Écrivez ou appelez l’atelier : il vous conseille sur les couleurs disponibles." },
+    { "q": "Que se passe-t-il si un article arrive abîmé ?", "r": "Contactez l’atelier dès réception. Les garanties légales de conformité et des vices cachés s’appliquent." },
+    { "q": "Les prix sont-ils définitifs ?", "r": "Oui pour les articles de la boutique. Pour les articles d’entreprise, le tarif dépend du logo et du nombre." }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "La boutique",
+    "appeler": "Appeler",
+    "calmeReduire": "Réduire les animations",
+    "calmeRetablir": "Rétablir les animations",
+    "calmeSysteme": "Animations réduites par le réglage de votre appareil",
+    "sommaire": "Sommaire",
+    "confort": "Confort",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les informations marquées « à compléter » seront fournies par l’atelier.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Broderie · flex · vinyle · Bretagne",
+    "logoAlt": "L’Atelier 2 Marie, accueil",
+    "logoNom": "L’Atelier 2 Marie",
+    "delai": "Fabrication en 3 semaines environ",
+    "retrait": "Retrait possible à l’atelier",
+    "tva": "TVA non applicable, art. 293 B du CGI",
+    "aCompleter": "à compléter",
+    "telephone": "Téléphone",
+    "email": "E-mail",
+    "adresse": "Atelier",
+    "horaires": "Horaires : à compléter",
+    "messages": "N’hésitez pas à laisser un message.",
+    "facebook": "Facebook (nouvel onglet)",
+    "pied": {
+      "accroche": "Entreprise familiale bretonne de personnalisation : broderie, flex et vinyle.",
+      "boutique": "La boutique",
+      "aide": "Aide",
+      "legal": "Informations",
+      "confidentialite": "Confidentialité et cookies"
+    },
+    "recherche": {
+      "bouton": "Rechercher",
+      "titre": "Rechercher un article",
+      "champ": "Article, prénom, univers…",
+      "aide": "Exemples : sweat, sac, cierge, Puy du Fou",
+      "aucun": "Aucun article ne correspond. Essayez un autre mot, ou écrivez à l’atelier : il personnalise aussi sur demande.",
+      "resultats": "{n} article(s)",
+      "tout": "Voir tous les résultats dans la boutique",
+      "fermer": "Fermer la recherche"
+    },
+    "panier": {
+      "bouton": "Panier",
+      "titre": "Votre panier",
+      "vide": "Votre panier est vide.",
+      "videAction": "Découvrir la boutique",
+      "sousTotal": "Sous-total",
+      "livraison": "Livraison : frais à compléter, ou retrait gratuit à l’atelier.",
+      "commander": "Passer la commande",
+      "retirer": "Retirer",
+      "quantite": "Quantité",
+      "fermer": "Fermer le panier",
+      "ajoute": "Ajouté au panier : {nom}",
+      "retire": "Retiré du panier : {nom}",
+      "total": "Total : {total}",
+      "simule": "Panier de démonstration : aucune commande n’est envoyée."
+    },
+    "commande": {
+      "titre": "Votre commande",
+      "etape1": "Coordonnées",
+      "etape2": "Livraison",
+      "etape3": "Paiement",
+      "deroule": "Trois étapes : coordonnées, livraison, paiement.",
+      "nom": "Nom et prénom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "modeLivraison": "Mode de livraison",
+      "envoi": "Envoi à domicile (frais à compléter)",
+      "retraitAtelier": "Retrait à l’atelier de Kernascléden (modalités à convenir par téléphone)",
+      "adresse": "Adresse de livraison",
+      "paiement": "Moyen de paiement",
+      "carte": "Carte bancaire",
+      "paypal": "PayPal",
+      "horsLigne": "Paiement hors ligne (modalités à compléter)",
+      "suivant": "Continuer",
+      "retour": "Retour",
+      "valider": "Valider la commande (simulée)",
+      "donnees": "Vos coordonnées servent seulement à traiter votre commande. <a href=\"/confidentialite\">Politique de confidentialité</a> (à compléter).",
+      "personnalise": "Les articles personnalisés (prénom, texte, motif choisi) sont fabriqués pour vous : ils ne peuvent pas être retournés pour un simple changement d’avis.",
+      "merci": "Commande simulée : rien n’a été envoyé ni payé. Sur le site final, la commande partira vers l’atelier. Votre panier a été vidé."
+    },
+    "facebookNom": "Facebook",
+    "nouvelOnglet": "nouvel onglet",
+    "logoNom1": "L’Atelier",
+    "logoNom2": "2 Marie"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "L’Atelier 2 Marie : broderie et flex personnalisés en Bretagne",
+      "description": "Sweats de patrouille, sacs au prénom, cierges, serviettes brodées : une entreprise familiale bretonne personnalise vos articles. Fabrication en trois semaines environ.",
+      "nav": "Accueil",
+      "partageAlt": "Sac de voyage brodé au prénom Amaury, logo de L’Atelier 2 Marie",
+      "accroche": "Vos prénoms, brodés et flexés en Bretagne"
+    },
+    "boutique": {
+      "titre": "La boutique : 51 articles à personnaliser | L’Atelier 2 Marie",
+      "description": "Scout, religieux, Puy du Fou, enfant, sacs de voyage, maison, bijoux, bois et santons : tous les articles de L’Atelier 2 Marie, avec leurs prix.",
+      "nav": "Boutique",
+      "partageAlt": "La boutique de L’Atelier 2 Marie",
+      "accroche": "51 articles à personnaliser, de 2,50 € à 70 €"
+    },
+    "commandes-groupees": {
+      "titre": "Commandes groupées : patrouilles, paroisses, entreprises | L’Atelier 2 Marie",
+      "description": "Sweats de maîtrise, polos de camp, lots de sacs de camp, sweats et tee-shirts d’entreprise : demandez un devis à L’Atelier 2 Marie.",
+      "nav": "Commandes groupées",
+      "partageAlt": "Polos de camp marqués en flex pour un groupe",
+      "accroche": "Pour toute la patrouille, la paroisse ou l’équipe"
+    },
+    "atelier": {
+      "titre": "L’atelier : une entreprise familiale bretonne | L’Atelier 2 Marie",
+      "description": "Une maman de quatre enfants qui aime coudre et broder, trois machines, un atelier à Kernascléden dans le Morbihan.",
+      "nav": "L’atelier",
+      "partageAlt": "L’atelier de L’Atelier 2 Marie",
+      "accroche": "Une entreprise familiale bretonne"
+    },
+    "infos-pratiques": {
+      "titre": "Livraison, retours et paiement | L’Atelier 2 Marie",
+      "description": "Délais de fabrication, livraison, retrait à l’atelier, moyens de paiement et retours : tout ce qu’il faut savoir avant de commander.",
+      "nav": "Infos pratiques",
+      "partageAlt": "Infos pratiques de L’Atelier 2 Marie",
+      "accroche": "Délais, livraison, retours, paiement"
+    },
+    "contact": {
+      "titre": "Contact : écrire ou appeler l’atelier | L’Atelier 2 Marie",
+      "description": "Téléphone, e-mail et adresse de L’Atelier 2 Marie à Kernascléden. Une idée, un prénom, un logo : l’atelier vous répond.",
+      "nav": "Contact",
+      "partageAlt": "Contacter L’Atelier 2 Marie",
+      "accroche": "Une idée, un prénom, un logo ?"
+    },
+    "mentions-legales": {
+      "titre": "Mentions légales | L’Atelier 2 Marie",
+      "description": "Éditeur, hébergeur, crédits et informations à fournir par l’atelier.",
+      "nav": "Mentions légales",
+      "partageAlt": "Mentions légales de L’Atelier 2 Marie",
+      "accroche": "Mentions légales"
+    },
+    "confidentialite": {
+      "titre": "Confidentialité et cookies | L’Atelier 2 Marie",
+      "description": "Données personnelles, panier enregistré dans votre navigateur et cookies.",
+      "nav": "Confidentialité et cookies",
+      "partageAlt": "Confidentialité et cookies de L’Atelier 2 Marie",
+      "accroche": "Confidentialité et cookies"
+    },
+    "404": {
+      "titre": "Fil cassé : page introuvable | L’Atelier 2 Marie",
+      "description": "Cette page n’existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Fil cassé"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "titre1": "Vos prénoms,",
+      "titre2": "brodés",
+      "titre3": "et flexés en Bretagne",
+      "texte": "Sweats de patrouille, sacs au prénom, cierges, serviettes brodées : la plupart des articles sont personnalisés à la commande, dans l’atelier familial de Kernascléden.",
+      "action": "Personnaliser un article",
+      "info": "Fabrication en 3 semaines environ · retrait possible à l’atelier",
+      "alt": "Sac de voyage noir brodé du prénom Amaury en fil doré",
+      "alt2": "Sweat à capuche marron marqué en flex d’une tête de cerf et de la devise Semper parati",
+      "defiler": "Découvrir"
+    },
+    "noel": {
+      "surtitre": "En ce moment",
+      "titre": "Idées pour Noël",
+      "texte": "La fabrication prend environ trois semaines : pour Noël, commandez de préférence avant la fin novembre.",
+      "action": "Voir les idées pour Noël"
+    },
+    "univers": {
+      "titre": "Trouvez votre univers",
+      "texte": "Dix univers, de la patrouille à la table de fête.",
+      "des": "dès {prix}",
+      "articles": "{n} articles",
+      "region": "Univers de la boutique, défilement horizontal",
+      "glisser": "Faites glisser"
+    },
+    "nouveautes": {
+      "titre": "Nouveautés de l’atelier",
+      "texte": "Les derniers articles mis en boutique.",
+      "action": "Toute la boutique"
+    },
+    "demo": {
+      "surtitre": "Essayez",
+      "titre": "Votre prénom, en aperçu sur le sac",
+      "texte": "Le sac « Prénom » de 12 litres, brodé au prénom de votre choix. Choisissez la couleur du sac et du fil :",
+      "etape1": "Couleur du sac",
+      "etape2": "Prénom",
+      "etape3": "Couleur du fil",
+      "exemple": "Amaury",
+      "indicatif": "Aperçu indicatif : lettrage et couleur du fil à confirmer avec l’atelier.",
+      "action": "Commander ce sac · 25 €",
+      "filOr": "doré",
+      "filBlanc": "blanc cassé",
+      "filMarine": "bleu marine",
+      "filRose": "vieux rose",
+      "alt": "Sac de voyage {couleur} de 12 litres"
+    },
+    "savoirFaire": {
+      "titre": "Quatre gestes d’atelier",
+      "texte": "Une machine de découpe, une machine à coudre et une brodeuse : de quoi personnaliser un large éventail d’articles.",
+      "broderie": {
+        "titre": "Broder",
+        "texte": "La brodeuse dessine le motif au fil : Saint Michel au dos d’un sweat, une hermine sur une serviette, un prénom sur un sac.",
+        "exemple": "Exemple : pochette brodée « Maman en Or »"
+      },
+      "decoupe": {
+        "titre": "Découper",
+        "texte": "La machine de découpe trace les lettres et les motifs dans le flex et le vinyle, puis l’excédent est retiré à la main.",
+        "exemple": "Exemple : porte-monnaie aux prénoms Elise et Gude"
+      },
+      "presse": {
+        "titre": "Appliquer à chaud",
+        "texte": "Le flex découpé est appliqué à chaud sur le textile. Entretien : lavage et repassage sur l’envers.",
+        "exemple": "Exemple : polo de camp « Léopard »"
+      },
+      "couture": {
+        "titre": "Coudre",
+        "texte": "La machine à coudre assemble les pochettes et pose les tissus appliqués, comme sur le sac « Mes livres pour la messe ».",
+        "exemple": "Exemple : sac « Mes livres pour la messe » appliqué"
+      },
+      "region": "Les quatre gestes de l’atelier"
+    },
+    "delai": {
+      "titre": "Environ trois semaines, de la commande à l’envoi",
+      "etape1": "Vous commandez",
+      "etape1Texte": "Vous choisissez l’article, la couleur, le prénom ou le motif.",
+      "etape2": "L’atelier personnalise",
+      "etape2Texte": "Broderie, découpe et application : environ trois semaines, soit 21 jours.",
+      "etape3": "Envoi ou retrait",
+      "etape3Texte": "Envoi à domicile, ou retrait à l’atelier de Kernascléden.",
+      "question": "Une question avant de commander ?"
+    },
+    "groupes": {
+      "titre": "Pour la patrouille, la paroisse ou l’équipe",
+      "texte": "Sweats de maîtrise aux totems, polos de camp, lots de sacs de camp, sweats et tee-shirts d’entreprise : l’atelier personnalise aussi en série.",
+      "action": "Demander un devis"
+    },
+    "atelier": {
+      "titre": "Un atelier familial, en Bretagne",
+      "citation": "Maman de 4 enfants, j’ai toujours aimé coudre et broder, d’abord pour mes enfants puis pour les amis.",
+      "auteur": "Alix Cochet, L’Atelier 2 Marie",
+      "action": "Découvrir l’atelier",
+      "avisTitre": "Ils ont commandé",
+      "avisSource": "Avis laissés sur Boutique des Familles",
+      "carteTitre": "Kernascléden, Morbihan",
+      "carteTexte": "L’atelier, dans le Morbihan",
+      "carteAlt": "Carte du Morbihan brodée, avec Kernascléden marqué d’un point doré",
+      "carteNom": "Kernascléden"
+    },
+    "fin": {
+      "titre": "Un motif, un logo, une idée ?",
+      "texte": "L’atelier personnalise aussi sur demande : écrivez-lui ou appelez, en laissant un message si besoin.",
+      "action": "Écrire à l’atelier"
+    }
+  },
+  "boutique": {
+    "titre": "La boutique",
+    "texte": "{n} articles, la plupart personnalisables, de {min} à {max}.",
+    "recherche": "Rechercher dans la boutique",
+    "rechercheChamp": "Sweat, sac, cierge…",
+    "univers": "Univers",
+    "occasions": "Occasions",
+    "technique": "Technique",
+    "techniqueToutes": "Toutes",
+    "tri": "Trier",
+    "triPertinence": "Sélection de l’atelier",
+    "triPrixCroissant": "Prix croissant",
+    "triPrixDecroissant": "Prix décroissant",
+    "triNouveautes": "Nouveautés d’abord",
+    "tout": "Tout",
+    "effacer": "Effacer les filtres",
+    "compte": "{n} articles",
+    "aucun": "Aucun article pour cette sélection.",
+    "personnaliser": "Personnaliser",
+    "voir": "Voir l’article",
+    "ajouter": "Ajouter",
+    "personnalisable": "Personnalisable",
+    "surCommande": "Uniquement sur demande",
+    "nouveaute": "Nouveauté",
+    "prenomSurvol": "Louise",
+    "serie": {
+      "titre": "Une série pour un groupe ?",
+      "texte": "Patrouille, paroisse, école ou entreprise : demandez un devis pour plusieurs articles personnalisés.",
+      "action": "Demander un devis",
+      "alt": "Lot de sacs de camp rouges marqués en flex Camp, Cuisine, Toilette, Nuit et Linge sale"
+    },
+    "faq": {
+      "titre": "Avant de commander"
+    },
+    "filtresTitre": "Filtrer les articles",
+    "filtres": "Filtres",
+    "fermerFiltres": "Voir les articles",
+    "voirTout": "Voir les articles",
+    "compteUn": "{n} article"
+  },
+  "fiche": {
+    "fil": "Fil d’Ariane",
+    "boutique": "Boutique",
+    "prix": "Prix",
+    "choisir": "Choisir",
+    "obligatoire": "obligatoire",
+    "facultatif": "facultatif",
+    "quantite": "Quantité",
+    "ajouter": "Ajouter au panier",
+    "apercu": "Aperçu de votre texte",
+    "apercuVide": "Votre texte",
+    "apercuIndicatif": "indicatif",
+    "personnaliseRetour": "Article personnalisé : il est fabriqué pour vous et ne peut pas être retourné pour un simple changement d’avis (art. L221-28 du Code de la consommation).",
+    "standardRetour": "Vous disposez de 14 jours pour changer d’avis après réception (texte à faire valider par l’atelier).",
+    "details": "Description",
+    "descriptionSite": "Description",
+    "aCompleterFiche": "Description à compléter : la fiche de cet article est vide sur le site actuel.",
+    "techniques": "Technique",
+    "livraisonTitre": "Livraison et retrait",
+    "livraisonTexte": "Envoi à domicile (frais à compléter) ou retrait à l’atelier de Kernascléden, une fois l’article prêt.",
+    "memeUnivers": "Dans le même univers",
+    "photo": "Photo {n} sur {total}",
+    "agrandir": "Agrandir la photo",
+    "visionneuse": "Photos de l’article",
+    "precedente": "Photo précédente",
+    "suivante": "Photo suivante",
+    "fermer": "Fermer",
+    "choixManquant": "Choisissez une option : {titre}.",
+    "texteManquant": "Ce texte est à remplir : {titre}.",
+    "question": "Une question sur cet article ?",
+    "questionAction": "Écrire à l’atelier",
+    "des": "dès {prix}",
+    "surDevis": "Prix de départ : le tarif dépend du logo et du nombre de pièces.",
+    "demanderDevis": "Demander un devis"
+  },
+  "groupes": {
+    "titre": "Commandes groupées",
+    "sousTitre": "Pour la patrouille, la paroisse, l’école ou l’entreprise",
+    "texte": "Sweats aux totems de la maîtrise, polos de camp, lots de sacs de camp, sweats et tee-shirts au logo de l’entreprise : l’atelier personnalise en série.",
+    "action": "Demander un devis",
+    "alt": "Polos de camp bleu marine marqués en flex Camp 2025 La Résistance",
+    "serie": {
+      "titre": "Ce que l’atelier fait en série",
+      "texte": "Les prix affichés sont ceux de la boutique, à l’unité. Pour les articles d’entreprise, le tarif dépend du logo et du nombre de pièces."
+    },
+    "etapes": {
+      "titre": "Comment ça se passe",
+      "e1": "Vous décrivez votre projet",
+      "e1Texte": "Articles, quantités, tailles, noms ou logo : le formulaire ci-dessous guide chaque étape.",
+      "e2": "L’atelier vous répond",
+      "e2Texte": "Avec un devis adapté au motif et au nombre d’articles.",
+      "e3": "Fabrication",
+      "e3Texte": "Environ trois semaines une fois la commande validée.",
+      "e4": "Envoi ou retrait",
+      "e4Texte": "Envoi à l’adresse du groupe, ou retrait à l’atelier de Kernascléden."
+    },
+    "devis": {
+      "titre": "Votre demande de devis",
+      "deroule": "Quatre étapes : votre groupe, les articles, la personnalisation, vos coordonnées.",
+      "etape": "Étape {n} sur 4",
+      "e1": "Votre groupe",
+      "e2": "Les articles",
+      "e3": "La personnalisation",
+      "e4": "Vos coordonnées",
+      "type": "Vous êtes",
+      "typeScout": "Une patrouille ou un groupe scout",
+      "typeParoisse": "Une paroisse ou une école",
+      "typeEntreprise": "Une entreprise ou une association",
+      "typeFamille": "Une famille ou un événement",
+      "nomGroupe": "Nom du groupe, de la patrouille ou de l’entreprise",
+      "articles": "Articles souhaités et quantités",
+      "quantite": "Quantité pour {nom}",
+      "texte": "Texte, noms ou totems à personnaliser",
+      "textePlaceholder": "Exemple : nom de la patrouille au dos, totems sur la poitrine",
+      "logo": "Logo ou motif (fichier)",
+      "logoAide": "Formulaire de démonstration : le fichier n’est pas envoyé.",
+      "technique": "Technique souhaitée",
+      "techniqueBroderie": "Broderie",
+      "techniqueFlex": "Flex",
+      "techniqueConseil": "Je ne sais pas, conseillez-moi",
+      "date": "Date souhaitée",
+      "dateAide": "Au plus tôt le {date}, avec environ trois semaines de fabrication.",
+      "dateTrop": "Cette date laisse moins de trois semaines : l’atelier vous dira ce qui est possible.",
+      "nom": "Nom et prénom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "message": "Précisions",
+      "envoyer": "Envoyer la demande",
+      "suivant": "Continuer",
+      "retour": "Retour",
+      "recap": "Votre demande",
+      "recapVide": "Choisissez des articles pour voir l’estimation.",
+      "estimation": "Estimation d’après les prix de la boutique",
+      "estimationNote": "Indicative : le devis final dépend du motif, du logo et du nombre.",
+      "aucunArticle": "Choisissez au moins un article et sa quantité.",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre demande. <a href=\"/confidentialite\">Politique de confidentialité</a> (à compléter).",
+      "envoye": "Demande simulée : rien n’a été envoyé. Sur le site final, elle partira vers l’atelier.",
+      "intro": "Dites-nous qui vous êtes et ce qu’il vous faut : l’atelier vous répond avec un devis."
+    },
+    "faq": {
+      "titre": "Questions des groupes"
+    },
+    "fin": {
+      "titre": "Plutôt en parler de vive voix ?",
+      "texte": "Appelez l’atelier, n’hésitez pas à laisser un message."
+    },
+    "faqAlt": "Polo de camp bleu roi aux armes du Bourbonnais, marqué en flex"
+  },
+  "atelier": {
+    "titre": "Une entreprise familiale bretonne",
+    "texte": "L’Atelier 2 Marie est une jeune entreprise bretonne, installée à Kernascléden, dans le Morbihan.",
+    "alt": "Un atelier de couture lumineux dans une maison en pierre",
+    "histoire": {
+      "titre": "D’abord pour les enfants, puis pour les amis",
+      "citation": "Maman de 4 enfants, j’ai toujours aimé coudre et broder, d’abord pour mes enfants puis pour les amis.",
+      "auteur": "Alix Cochet",
+      "texte": "Aujourd’hui, l’atelier propose de nombreux articles pour toute la famille : sweats, sacs, cierges, serviettes, objets en bois et bijoux.",
+      "alt": "Bougie famille personnalisée aux prénoms et aux dates de la famille"
+    },
+    "machines": {
+      "titre": "Les machines de l’atelier",
+      "texte": "Trois machines, qui permettent un large éventail de produits.",
+      "brodeuse": "La brodeuse",
+      "brodeuseTexte": "Pour les prénoms, les saints patrons, les hermines et les phares brodés.",
+      "decoupe": "La machine de découpe",
+      "decoupeTexte": "Pour les lettres et motifs en flex sur textile, et en vinyle sur le bois et les cierges.",
+      "couture": "La machine à coudre",
+      "coutureTexte": "Pour les pochettes, les sacs et les tissus appliqués.",
+      "presse": "L’application à chaud",
+      "presseTexte": "Le flex découpé se pose ensuite à chaud sur le textile (équipement à confirmer avec l’atelier)."
+    },
+    "techniques": {
+      "titre": "Broderie, flex ou vinyle : que choisir ?",
+      "texte": "Chaque technique a son rendu. Exemples tirés de la boutique.",
+      "colonneTechnique": "Technique",
+      "colonneRendu": "Rendu",
+      "colonneExemples": "Exemples en boutique",
+      "broderie": "Broderie",
+      "broderieRendu": "Motif en fil, en relief",
+      "broderieExemples": "Sweat Saint Michel, serviettes Hermine, sac « Prénom »",
+      "flex": "Flex",
+      "flexRendu": "Motif net et couvrant, appliqué à chaud ; lavage et repassage sur l’envers",
+      "flexExemples": "Sweat patrouille, polos de camp, lots de sacs de camp",
+      "vinyle": "Vinyle",
+      "vinyleRendu": "Lettrage adhésif découpé, posé sur le bois et les cierges",
+      "vinyleExemples": "Cierge « Sacrement », ronds de serviette, coquetiers",
+      "applique": "Appliqué",
+      "appliqueRendu": "Tissu découpé et cousu, rehaussé de broderie",
+      "appliqueExemples": "Sac « Mes livres pour la messe » appliqué"
+    },
+    "lieu": {
+      "titre": "À Kernascléden, dans le Morbihan",
+      "texte": "L’atelier se trouve au 24 Kerchopine, à Kernascléden, au nord de Lorient. Les commandes peuvent y être retirées en main propre : modalités à convenir par téléphone.",
+      "alt": "Campagne bretonne au petit matin, haies et chemin creux"
+    },
+    "avis": {
+      "titre": "Ils ont commandé",
+      "alt": "Coquetier et rond de serviette en hêtre au prénom Thibault"
+    },
+    "fin": {
+      "titre": "Envie d’un article à votre nom ?",
+      "action": "Voir la boutique"
+    }
+  },
+  "infos": {
+    "titre": "Infos pratiques",
+    "texte": "Délais, livraison, retrait, paiement et retours : tout ce qu’il faut savoir avant de commander.",
+    "alt": "Table d’emballage avec colis en kraft et ficelle dorée",
+    "delais": {
+      "titre": "Délais de fabrication",
+      "texte": "La plupart des articles sont personnalisés à la commande : comptez environ trois semaines de fabrication. Certains ne sont fabriqués que sur demande (c’est indiqué sur leur fiche)."
+    },
+    "livraison": {
+      "titre": "Livraison",
+      "texte": "Envoi à domicile : transporteurs, tarifs et délais d’acheminement à compléter par l’atelier."
+    },
+    "retrait": {
+      "titre": "Retrait à l’atelier",
+      "texte": "Les commandes peuvent être retirées en main propre au 24 Kerchopine, 56540 Kernascléden. Modalités à convenir par téléphone. Il est conseillé de vérifier sa commande sur place."
+    },
+    "paiement": {
+      "titre": "Paiement",
+      "texte": "Moyens de paiement indiqués par l’atelier : carte bancaire, PayPal et paiement hors ligne (modalités à compléter).",
+      "carte": "Carte bancaire",
+      "paypal": "PayPal",
+      "horsLigne": "Paiement hors ligne"
+    },
+    "prix": {
+      "titre": "Prix",
+      "texte": "Les prix affichés sont les prix à payer. TVA non applicable, art. 293 B du CGI (régime à confirmer par l’atelier)."
+    },
+    "retours": {
+      "titre": "Retours et remboursements",
+      "avertissement": "Version proposée, conforme au Code de la consommation, à faire valider par l’atelier.",
+      "r1": "Articles non personnalisés, y compris soldés ou en promotion : vous disposez de 14 jours après réception pour changer d’avis. Les frais de retour sont à votre charge ; le remboursement intervient dans les 14 jours.",
+      "r2": "Articles confectionnés selon vos demandes ou nettement personnalisés (prénom, texte, motif choisi) : pas de droit de rétractation (article L221-28, 3° du Code de la consommation). C’est indiqué sur chaque fiche avant la commande.",
+      "r3": "Article défectueux ou non conforme : les garanties légales de conformité et des vices cachés s’appliquent dans leurs délais légaux.",
+      "r4": "Retrait à l’atelier : une vérification sur place est conseillée, sans effet sur les garanties légales.",
+      "r5": "Avant tout envoi, écrivez à l’atelier : il vous communique l’adresse de retour."
+    },
+    "faq": {
+      "titre": "Questions fréquentes"
+    },
+    "fin": {
+      "titre": "Une question qui n’est pas ici ?",
+      "action": "Contacter l’atelier"
+    }
+  },
+  "contact": {
+    "titre": "Contact",
+    "texte": "Une idée, un prénom, un logo ? Écrivez ou appelez l’atelier.",
+    "alt": "Bureau près d’une fenêtre avec carnet de croquis, tambour à broder et cartes de fils",
+    "appelerTexte": "Appeler l’atelier",
+    "ecrireTexte": "Écrire un e-mail",
+    "formulaire": {
+      "titre": "Écrire à l’atelier",
+      "nom": "Nom et prénom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "sujet": "Sujet",
+      "sujetCommande": "Une commande en cours",
+      "sujetPersonnalisation": "Une personnalisation sur demande",
+      "sujetDevis": "Un devis pour un groupe",
+      "sujetRetrait": "Un retrait à l’atelier",
+      "sujetArticle": "Une question sur un article",
+      "sujetAutre": "Autre chose",
+      "article": "Article concerné",
+      "message": "Message",
+      "envoyer": "Envoyer le message",
+      "donnees": "Vos données servent seulement à répondre à votre message. <a href=\"/confidentialite\">Politique de confidentialité</a> (à compléter).",
+      "envoye": "Message simulé : rien n’a été envoyé. Sur le site final, il partira vers l’atelier.",
+      "sujetChoisir": "Choisir un sujet"
+    },
+    "lieu": {
+      "titre": "L’atelier",
+      "texte": "24 Kerchopine, 56540 Kernascléden (Morbihan). Retrait des commandes en main propre : modalités à convenir par téléphone."
+    },
+    "reseaux": "Suivre l’atelier",
+    "itineraire": "Itinéraire jusqu’à l’atelier"
+  },
+  "mentions": {
+    "titre": "Mentions légales",
+    "alt": "Toile de lin traversée d’une ligne de points dorés",
+    "fiche": {
+      "titre": "À fournir par l’atelier",
+      "texte": "Statut juridique et régime de TVA à confirmer · directeur de la publication à confirmer · horaires · transporteurs et frais de livraison · modalités du paiement hors ligne et du retrait · médiateur de la consommation · conditions générales de vente · politique de confidentialité · droits des photos de sacs vierges (catalogue du fournisseur) · date de création de l’entreprise (2024 sur le site actuel, photos signées 2020)."
+    },
+    "editeur": {
+      "titre": "Éditeur",
+      "texte": "L’Atelier 2 Marie, Alix Cochet, micro-entreprise. 24 Kerchopine, 56540 Kernascléden. SIRET : 898 888 573 00026. Téléphone : 06 07 06 21 41. E-mail : alix.cochet@sfr.fr. Directeur de la publication : Alix Cochet (à confirmer)."
+    },
+    "hebergeur": {
+      "titre": "Hébergeur",
+      "texte": "Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis (adresse à vérifier sur le site de Vercel à la mise en ligne)."
+    },
+    "credits": {
+      "titre": "Crédits",
+      "texte": "Photographies des articles : L’Atelier 2 Marie. Photos de sacs vierges : catalogue du fournisseur (droits à confirmer). Les images marquées « Illustration générée » ont été créées par intelligence artificielle. Polices : Fraunces, Instrument Sans et Great Vibes (licence SIL Open Font License)."
+    },
+    "confidentialite": {
+      "titre": "Confidentialité",
+      "texte": "Voir la page Confidentialité et cookies."
+    }
+  },
+  "confidentialite": {
+    "titre": "Confidentialité et cookies",
+    "alt": "Toile de lin traversée d’une ligne de points dorés",
+    "donnees": {
+      "titre": "Données personnelles",
+      "texte": "Politique de confidentialité à compléter par l’atelier (RGPD) : données recueillies par les formulaires et les commandes, finalité, durée de conservation, destinataires, droits d’accès, de rectification et d’effacement, contact pour les exercer."
+    },
+    "maquette": {
+      "titre": "Dans cette maquette",
+      "texte": "Les formulaires et le panier sont simulés : rien n’est envoyé. Le contenu du panier et votre choix d’animations sont gardés dans votre navigateur (stockage local), jamais transmis."
+    },
+    "cookies": {
+      "titre": "Cookies",
+      "texte": "La maquette ne dépose aucun cookie. Sur le site final, la liste des cookies et le recueil du consentement seront à compléter (la page actuelle reprend un texte modèle non rempli)."
+    }
+  },
+  "introuvable": {
+    "titre": "Fil cassé : cette page n’existe pas",
+    "texte": "Le lien est peut-être ancien, ou l’adresse mal recopiée. Reprenez le fil :",
+    "retour": "Revenir à l’accueil",
+    "boutique": "Voir la boutique",
+    "alt": "Bobine de fil doré déroulée, fil cassé sur une toile de lin"
+  }
+}

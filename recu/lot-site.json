@@ -1,0 +1,948 @@
+[
+ {
+  "source": "recu/site/produits/bonnet-en-polaire-1.jpg",
+  "nom": "produits/bonnet-en-polaire-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucle-d-oreille-pampille-1.jpg",
+  "nom": "produits/boucle-d-oreille-pampille-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucle-d-oreille-pampille-4.jpg",
+  "nom": "produits/boucle-d-oreille-pampille-4",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucles-d-oreilles-1.jpg",
+  "nom": "produits/boucles-d-oreilles-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucles-d-oreilles-1-1.jpg",
+  "nom": "produits/boucles-d-oreilles-1-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucles-d-oreilles-2-1.jpg",
+  "nom": "produits/boucles-d-oreilles-2-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucles-d-oreilles-3-1.jpg",
+  "nom": "produits/boucles-d-oreilles-3-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucles-d-oreilles-4-1.jpg",
+  "nom": "produits/boucles-d-oreilles-4-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucles-d-oreilles-5-1.jpg",
+  "nom": "produits/boucles-d-oreilles-5-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/boucles-d-oreilles-6-1.jpg",
+  "nom": "produits/boucles-d-oreilles-6-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/bougie-famille-1.jpg",
+  "nom": "produits/bougie-famille-1",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "garder": [
+   0,
+   0,
+   100,
+   91
+  ]
+ },
+ {
+  "source": "recu/site/produits/bougie-famille-2.jpg",
+  "nom": "produits/bougie-famille-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/cierge-sacrement-1.jpg",
+  "nom": "produits/cierge-sacrement-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/cierge-sacrement-2.jpg",
+  "nom": "produits/cierge-sacrement-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/coquetier-rond-de-serviette-1.jpg",
+  "nom": "produits/coquetier-rond-de-serviette-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/coquetier-rond-de-serviette-2.jpg",
+  "nom": "produits/coquetier-rond-de-serviette-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/pages/accueil-1.jpg",
+  "nom": "produits/coquetiers-prenoms",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-1.jpg",
+  "nom": "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-2.jpg",
+  "nom": "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-3.jpg",
+  "nom": "produits/lot-de-5-sac-de-camp-taille-louveteau-1-offert-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/pages/scout-1.jpg",
+  "nom": "produits/lot-de-7-sacs-de-camp",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/mes-5-objets-brode-1.jpg",
+  "nom": "produits/mes-5-objets-brode-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/mes-livres-pour-la-messe-1.jpg",
+  "nom": "produits/mes-livres-pour-la-messe-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/mes-livres-pour-la-messe-applique-1.jpg",
+  "nom": "produits/mes-livres-pour-la-messe-applique-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/pochette-brodee-1.jpg",
+  "nom": "produits/pochette-brodee-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/pochette-brodee-1-1.jpg",
+  "nom": "produits/pochette-brodee-1-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/pochette-brodee-1-2.jpg",
+  "nom": "produits/pochette-brodee-1-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/pochette-brodee-2.jpg",
+  "nom": "produits/pochette-brodee-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/polaire-1.jpg",
+  "nom": "produits/polaire-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/polaire-2.jpg",
+  "nom": "produits/polaire-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/polo-de-camp-1.jpg",
+  "nom": "produits/polo-de-camp-1",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "garder": [
+   0,
+   0,
+   100,
+   92
+  ]
+ },
+ {
+  "source": "recu/site/produits/polo-de-camp-2.jpg",
+  "nom": "produits/polo-de-camp-2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "garder": [
+   0,
+   0,
+   100,
+   92
+  ]
+ },
+ {
+  "source": "recu/site/produits/polo-de-camp-3.jpg",
+  "nom": "produits/polo-de-camp-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/polo-de-camp-4.jpg",
+  "nom": "produits/polo-de-camp-4",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/polo-de-camp-5.jpg",
+  "nom": "produits/polo-de-camp-5",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/polo-j-peux-pas-1.jpg",
+  "nom": "produits/polo-j-peux-pas-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/porte-monnaie-flex-1.jpg",
+  "nom": "produits/porte-monnaie-flex-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/rond-de-serviette-1.jpg",
+  "nom": "produits/rond-de-serviette-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/rond-de-serviette-en-bois-du-jura-1.jpg",
+  "nom": "produits/rond-de-serviette-en-bois-du-jura-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-chasse-a-l-uf-1.jpg",
+  "nom": "produits/sac-chasse-a-l-uf-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-1.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-2.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-3.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-4.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-4",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-5.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-5",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-6.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-6",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-7.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-7",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-initiale-20l-8.jpg",
+  "nom": "produits/sac-de-voyage-initiale-20l-8",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-j-peux-pas-j-ai-scout-1.jpg",
+  "nom": "produits/sac-de-voyage-j-peux-pas-j-ai-scout-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-l-aventure-nous-appelle-1.jpg",
+  "nom": "produits/sac-de-voyage-l-aventure-nous-appelle-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-de-voyage-l-aventure-nous-appelle-2.jpg",
+  "nom": "produits/sac-de-voyage-l-aventure-nous-appelle-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-initiale-brodee-1.jpg",
+  "nom": "produits/sac-initiale-brodee-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-initiale-brodee-2.jpg",
+  "nom": "produits/sac-initiale-brodee-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-initiale-brodee-3.jpg",
+  "nom": "produits/sac-initiale-brodee-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-initiale-brodee-4.jpg",
+  "nom": "produits/sac-initiale-brodee-4",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sac-prenom-1.jpg",
+  "nom": "produits/sac-prenom-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sachet-de-dragees-1.jpg",
+  "nom": "produits/sachet-de-dragees-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sachet-de-dragees-2.jpg",
+  "nom": "produits/sachet-de-dragees-2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "garder": [
+   0,
+   0,
+   100,
+   90
+  ]
+ },
+ {
+  "source": "recu/site/produits/sachet-de-dragees-3.png",
+  "nom": "produits/sachet-de-dragees-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/santon-saint-charles-de-foucauld-1.jpg",
+  "nom": "produits/santon-saint-charles-de-foucauld-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/santon-saint-francois-d-assise-1.jpg",
+  "nom": "produits/santon-saint-francois-d-assise-1",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "garder": [
+   0,
+   0,
+   100,
+   88
+  ]
+ },
+ {
+  "source": "recu/site/produits/serviettes-de-table-hermine-1.jpg",
+  "nom": "produits/serviettes-de-table-hermine-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/serviettes-de-table-hermine-2.jpg",
+  "nom": "produits/serviettes-de-table-hermine-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/serviettes-de-table-hermine-3.jpg",
+  "nom": "produits/serviettes-de-table-hermine-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/serviettes-de-tables-phare-1.jpg",
+  "nom": "produits/serviettes-de-tables-phare-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/serviettes-de-tables-phare-2.jpg",
+  "nom": "produits/serviettes-de-tables-phare-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/serviettes-de-tables-phare-3.jpg",
+  "nom": "produits/serviettes-de-tables-phare-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/support-pour-boule-de-noel-1.jpg",
+  "nom": "produits/support-pour-boule-de-noel-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-charette-1.jpg",
+  "nom": "produits/sweat-charette-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-charette-2.jpg",
+  "nom": "produits/sweat-charette-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-entreprise-1.jpg",
+  "nom": "produits/sweat-entreprise-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-j-peux-pas-j-ai-puy-du-fou-1.jpg",
+  "nom": "produits/sweat-j-peux-pas-j-ai-puy-du-fou-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-j-peux-pas-j-ai-puy-du-fou-1-1.jpg",
+  "nom": "produits/sweat-j-peux-pas-j-ai-puy-du-fou-1-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-j-peux-pas-j-ai-puy-du-fou-1-2.jpg",
+  "nom": "produits/sweat-j-peux-pas-j-ai-puy-du-fou-1-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-jeanne-d-arc-1.jpg",
+  "nom": "produits/sweat-jeanne-d-arc-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-maitrise-1.jpg",
+  "nom": "produits/sweat-maitrise-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-maitrise-2.jpg",
+  "nom": "produits/sweat-maitrise-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-maitrise-3.jpg",
+  "nom": "produits/sweat-maitrise-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-maitrise-4.jpg",
+  "nom": "produits/sweat-maitrise-4",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-maitrise-5.jpg",
+  "nom": "produits/sweat-maitrise-5",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-maitrise-6.jpg",
+  "nom": "produits/sweat-maitrise-6",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-patrouille-1.jpg",
+  "nom": "produits/sweat-patrouille-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/sweat-saint-michel-1.jpg",
+  "nom": "produits/sweat-saint-michel-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tablier-jardin-de-versailles-1.jpg",
+  "nom": "produits/tablier-jardin-de-versailles-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tablier-jardin-de-versailles-2.jpg",
+  "nom": "produits/tablier-jardin-de-versailles-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tablier-jardin-de-versailles-3.jpg",
+  "nom": "produits/tablier-jardin-de-versailles-3",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tablier-jardin-de-versailles-4.jpg",
+  "nom": "produits/tablier-jardin-de-versailles-4",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tablier-jardin-de-versailles-5.jpg",
+  "nom": "produits/tablier-jardin-de-versailles-5",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tablier-jardin-de-versailles-6.jpg",
+  "nom": "produits/tablier-jardin-de-versailles-6",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tee-shirt-entreprise-flex-1.jpg",
+  "nom": "produits/tee-shirt-entreprise-flex-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tee-shirt-jpeux-pas-jai-puy-du-fou-1.jpg",
+  "nom": "produits/tee-shirt-jpeux-pas-jai-puy-du-fou-1",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/site/produits/tee-shirt-jpeux-pas-jai-puy-du-fou-2.jpg",
+  "nom": "produits/tee-shirt-jpeux-pas-jai-puy-du-fou-2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/detoures/bonnet-en-polaire-1.png",
+  "nom": "detoures/bonnet-en-polaire-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/boucles-d-oreilles-1.png",
+  "nom": "detoures/boucles-d-oreilles-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/cierge-sacrement-1.png",
+  "nom": "detoures/cierge-sacrement-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/coquetier-rond-de-serviette-1.png",
+  "nom": "detoures/coquetier-rond-de-serviette-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/coquetiers-prenoms.png",
+  "nom": "detoures/coquetiers-prenoms",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/pochette-brodee-1-1.png",
+  "nom": "detoures/pochette-brodee-1-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/polaire-1.png",
+  "nom": "detoures/polaire-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/porte-monnaie-flex-1.png",
+  "nom": "detoures/porte-monnaie-flex-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/sac-initiale-brodee-1.png",
+  "nom": "detoures/sac-initiale-brodee-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/sac-initiale-brodee-2.png",
+  "nom": "detoures/sac-initiale-brodee-2",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/sac-initiale-brodee-3.png",
+  "nom": "detoures/sac-initiale-brodee-3",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/sac-initiale-brodee-4.png",
+  "nom": "detoures/sac-initiale-brodee-4",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/sac-prenom-1.png",
+  "nom": "detoures/sac-prenom-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/santon-saint-charles-de-foucauld-1.png",
+  "nom": "detoures/santon-saint-charles-de-foucauld-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/santon-saint-francois-d-assise-1.png",
+  "nom": "detoures/santon-saint-francois-d-assise-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/serviettes-de-tables-phare-1.png",
+  "nom": "detoures/serviettes-de-tables-phare-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/support-pour-boule-de-noel-1.png",
+  "nom": "detoures/support-pour-boule-de-noel-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/sweat-j-peux-pas-j-ai-puy-du-fou-1.png",
+  "nom": "detoures/sweat-j-peux-pas-j-ai-puy-du-fou-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/detoures/sweat-patrouille-1.png",
+  "nom": "detoures/sweat-patrouille-1",
+  "alpha": true,
+  "largeurs": [
+   480,
+   960
+  ]
+ },
+ {
+  "source": "recu/site/commun/commun-1.png",
+  "nom": "logo",
+  "alpha": true,
+  "largeurs": [
+   320,
+   640
+  ]
+ }
+]

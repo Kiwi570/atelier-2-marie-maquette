@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="/assets/css/socle.css"><link rel="stylesheet" href="/assets/css/site.css">
+<style>:root{--fond:#f2ece1;--texte:#1c2a44}
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:var(--fond);color:var(--texte)}
+.carte-p{display:grid;grid-template-columns:560px 640px;width:1200px;height:630px}
+.carte-p-texte{display:flex;flex-direction:column;justify-content:space-between;padding:48px 56px;background:var(--fond);position:relative}
+.carte-p-texte::after{content:"";position:absolute;left:56px;right:40px;bottom:120px;border-top:3px dashed #c8963e}
+.carte-p-logo{width:250px;height:auto}
+.carte-p-titre{font-family:var(--police-titres);font-size:56px;line-height:1.04;margin:0;text-wrap:balance;font-weight:500}
+.carte-p-prix{font-family:var(--police-texte);font-size:30px;font-weight:600;margin:12px 0 0;color:#7a5716}
+.carte-p-nom{font-size:22px;font-weight:600;margin:0;letter-spacing:.04em}
+.carte-p-image{background:#fbf8f3 center/cover no-repeat}</style>
+</head><body>
+<div class="carte-p">
+  <div class="carte-p-texte">
+    <img class="carte-p-logo" src="/assets/images/logo-640.webp" alt="">
+    <div><p class="carte-p-titre">Tablier « Jardin de Versailles »</p><p class="carte-p-prix">35,00 €</p></div>
+    <p class="carte-p-nom">L’Atelier 2 Marie · Kernascléden, Bretagne</p>
+  </div>
+  <div class="carte-p-image" style="background-image:url('/assets/images/produits/tablier-jardin-de-versailles-1-1280.webp')"></div>
+</div>
+</body></html>

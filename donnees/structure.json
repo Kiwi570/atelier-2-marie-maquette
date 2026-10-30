@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "L’Atelier 2 Marie",
+  "url": "https://atelier-2-marie-maquette.vercel.app/",
+  "image": "https://atelier-2-marie-maquette.vercel.app/assets/partage/accueil-fr.jpg",
+  "logo": "https://atelier-2-marie-maquette.vercel.app/assets/images/logo-640.webp",
+  "telephone": "+33607062141",
+  "email": "alix.cochet@sfr.fr",
+  "address": { "@type": "PostalAddress", "streetAddress": "24 Kerchopine", "postalCode": "56540", "addressLocality": "Kernascléden", "addressRegion": "Bretagne", "addressCountry": "FR" },
+  "founder": { "@type": "Person", "name": "Alix Cochet" },
+  "paymentAccepted": "Carte bancaire, PayPal, paiement hors ligne",
+  "currenciesAccepted": "EUR",
+  "sameAs": ["https://www.facebook.com/MarieAlixCochet"],
+  "description": { "fr": "Entreprise familiale bretonne de personnalisation : broderie, flex et vinyle sur sweats, sacs, cierges, serviettes et objets en bois. Fabrication en trois semaines environ." }
+}
