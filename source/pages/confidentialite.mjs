@@ -13,7 +13,7 @@ export default (c) => html`
     <h1 class="page-titre">${c.t('confidentialite.titre')}</h1>
     <nav data-sommaire aria-label="${c.s('commun.sommaire')}"><ul>${sections.map((s) => html`<li><a href="#${s}" data-sans-transition>${c.t(`confidentialite.${s}.titre`)}</a></li>`)}</ul></nav>
   </div>
-  ${visuel(c, { grok: 'legal-lin', motif: 'fil', alt: c.s('confidentialite.alt'), classe: 'page-tete-media', sizes: '100vw', priorite: true })}
+  ${visuel(c, { grok: 'legal-lin', motif: 'fil', alt: c.s('confidentialite.alt'), classe: 'page-tete-media', sizes: '100vw', priorite: true, cadrage: '50% 52%' })}
 </section>
 <div class="texte-long texte-long--legal conteneur" data-sans-visuel>
   ${sections.map((s) => html`<section id="${s}" data-sans-visuel><h2>${c.t(`confidentialite.${s}.titre`)}</h2><p>${c.t(`confidentialite.${s}.texte`)}</p></section>`)}

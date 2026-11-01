@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur style='--texture-lin:url("/assets/images/grok/texture-lin-480.webp");--texture-lin-marine:url("/assets/images/grok/texture-lin-marine-480.webp")'>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -41,14 +41,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff" as="font" type="font/woff" crossorigin>
 <link rel="preload" href="/assets/polices/instrument-sans.woff" as="font" type="font/woff" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f2ece1">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -76,6 +76,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <radialGradient id="tambour-bois" cx="50%" cy="50%" r="50%"><stop offset="88%" stop-color="#c9a272"/><stop offset="100%" stop-color="#a77f4f"/></radialGradient>
       </defs>
       <circle class="tambour-toile" cx="300" cy="300" r="246" fill="url(#tambour-lin)"/>
+      <clipPath id="tambour-rond"><circle cx="300" cy="300" r="246"/></clipPath><image href="/assets/images/grok/texture-lin-480.webp" x="54" y="54" width="492" height="492" preserveAspectRatio="xMidYMid slice" clip-path="url(#tambour-rond)"/>
       <circle cx="300" cy="300" r="262" fill="none" stroke="url(#tambour-bois)" stroke-width="22"/>
       <circle cx="300" cy="300" r="272" fill="none" stroke="#b58a58" stroke-width="3" opacity=".7"/>
       <rect x="282" y="20" width="36" height="22" rx="5" fill="#b58a58"/><circle cx="300" cy="16" r="9" fill="#d8b98a"/>
@@ -126,8 +127,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </form>
     <p class="hero-actions" data-anime="gsap"><a class="bouton bouton--large" href="#articles" data-action-principale>Voir les articles <span class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a><span class="hero-info" data-info-cle><span class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 20 19.5 4.5a1.6 1.6 0 0 1 2.2 2.2L6.2 22.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><ellipse cx="19.6" cy="5.4" rx="1.4" ry=".55" transform="rotate(-45 19.6 5.4)" fill="none" stroke="currentColor" stroke-width="1"/></svg></span> Fabrication en 3 semaines environ</span></p>
   </div>
-  <figure class="media media--motif page-tete-media" data-visuel aria-hidden="true">
-  <svg viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><pattern id="lin-m15" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#ebe3d4"/><path d="M0 1.5h6M0 4.5h6" stroke="#ddd2bf" stroke-width="1"/><path d="M1.5 0v6M4.5 0v6" stroke="#e4dac8" stroke-width=".8"/></pattern></defs><rect width="100%" height="100%" fill="url(#lin-m15)"/><g transform="translate(400 225)"><rect x="-60" y="-90" width="120" height="16" rx="6" fill="#b08a5a"/><rect x="-60" y="74" width="120" height="16" rx="6" fill="#b08a5a"/><rect x="-46" y="-74" width="92" height="148" fill="#c8963e"/><g stroke="#a87a2e" stroke-width="2" opacity=".7"><line x1="-46" y1="-70" x2="46" y2="-66"/><line x1="-46" y1="-59.5" x2="46" y2="-55.5"/><line x1="-46" y1="-49" x2="46" y2="-45"/><line x1="-46" y1="-38.5" x2="46" y2="-34.5"/><line x1="-46" y1="-28" x2="46" y2="-24"/><line x1="-46" y1="-17.5" x2="46" y2="-13.5"/><line x1="-46" y1="-7" x2="46" y2="-3"/><line x1="-46" y1="3.5" x2="46" y2="7.5"/><line x1="-46" y1="14" x2="46" y2="18"/><line x1="-46" y1="24.5" x2="46" y2="28.5"/><line x1="-46" y1="35" x2="46" y2="39"/><line x1="-46" y1="45.5" x2="46" y2="49.5"/><line x1="-46" y1="56" x2="46" y2="60"/><line x1="-46" y1="66.5" x2="46" y2="70.5"/></g><path d="M46 20 C 140 40, 180 140, 330 110" fill="none" stroke="#c8963e" stroke-width="3"/></g></svg>
+  <figure class="media page-tete-media" data-grok style="--cadrage:50% 42%">
+  <picture>
+    <img src="/assets/images/grok/boutique-ouverture-mobile-784.webp" srcset="/assets/images/grok/boutique-ouverture-mobile-480.webp 480w, /assets/images/grok/boutique-ouverture-mobile-784.webp 784w" sizes="(max-width: 760px) 100vw, 30vw" alt="" width="784" height="1168" fetchpriority="high" loading="eager" decoding="sync">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
 </section>
 <section class="boutique conteneur" id="articles" data-boutique>
@@ -155,7 +158,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-cadre">
       <figure class="media produit-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/produits/sweat-patrouille-1-640.webp" srcset="/assets/images/produits/sweat-patrouille-1-640.webp 640w" sizes="(max-width: 760px) 50vw, 25vw" alt="Sweat patrouille" width="640" height="853" fetchpriority="high" loading="eager" decoding="async">
+    <img src="/assets/images/produits/sweat-patrouille-1-640.webp" srcset="/assets/images/produits/sweat-patrouille-1-640.webp 640w" sizes="(max-width: 760px) 50vw, 25vw" alt="Sweat patrouille" width="640" height="853" fetchpriority="high" loading="eager" decoding="sync">
   </picture>
 </figure>
       <span class="produit-prenom" aria-hidden="true">Louise</span>
@@ -171,7 +174,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-cadre">
       <figure class="media produit-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/produits/sweat-saint-michel-1-640.webp" srcset="/assets/images/produits/sweat-saint-michel-1-640.webp 640w" sizes="(max-width: 760px) 50vw, 25vw" alt="Sweat Saint Michel" width="640" height="853" fetchpriority="high" loading="eager" decoding="async">
+    <img src="/assets/images/produits/sweat-saint-michel-1-640.webp" srcset="/assets/images/produits/sweat-saint-michel-1-640.webp 640w" sizes="(max-width: 760px) 50vw, 25vw" alt="Sweat Saint Michel" width="640" height="853" fetchpriority="high" loading="eager" decoding="sync">
   </picture>
 </figure>
       <span class="produit-etiquettes"><span class="etiquette">Nouveauté</span></span>
@@ -186,7 +189,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-cadre">
       <figure class="media produit-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/produits/sweat-jeanne-d-arc-1-640.webp" srcset="/assets/images/produits/sweat-jeanne-d-arc-1-640.webp 640w" sizes="(max-width: 760px) 50vw, 25vw" alt="Sweat Jeanne d’Arc" width="640" height="853" fetchpriority="high" loading="eager" decoding="async">
+    <img src="/assets/images/produits/sweat-jeanne-d-arc-1-640.webp" srcset="/assets/images/produits/sweat-jeanne-d-arc-1-640.webp 640w" sizes="(max-width: 760px) 50vw, 25vw" alt="Sweat Jeanne d’Arc" width="640" height="853" fetchpriority="high" loading="eager" decoding="sync">
   </picture>
 </figure>
     </span>
@@ -200,7 +203,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-cadre">
       <figure class="media produit-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/produits/polo-de-camp-3-1280.webp" srcset="/assets/images/produits/polo-de-camp-3-640.webp 640w, /assets/images/produits/polo-de-camp-3-1280.webp 1280w" sizes="(max-width: 760px) 50vw, 25vw" alt="Polo de camp" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
+    <img src="/assets/images/produits/polo-de-camp-3-1280.webp" srcset="/assets/images/produits/polo-de-camp-3-640.webp 640w, /assets/images/produits/polo-de-camp-3-1280.webp 1280w" sizes="(max-width: 760px) 50vw, 25vw" alt="Polo de camp" width="1280" height="960" fetchpriority="high" loading="eager" decoding="sync">
   </picture>
 </figure>
       <span class="produit-etiquettes"><span class="etiquette">Uniquement sur demande</span></span>
@@ -921,8 +924,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <details class="faq-item" data-anime><summary>Combien de temps faut-il pour recevoir ma commande ?</summary><div class="faq-reponse"><p>La plupart des articles sont personnalisés à la commande : comptez environ trois semaines de fabrication, puis l’envoi ou le retrait à l’atelier.</p></div></details><details class="faq-item" data-anime><summary>Puis-je demander une autre couleur ou un autre motif ?</summary><div class="faq-reponse"><p>Oui : plusieurs fiches le précisent (« me contacter pour d’autres couleurs »). Écrivez à l’atelier avant de commander.</p></div></details><details class="faq-item" data-anime><summary>Puis-je retourner un article personnalisé ?</summary><div class="faq-reponse"><p>Un article fabriqué selon vos demandes (prénom, texte, motif choisi) ne peut pas être retourné pour un simple changement d’avis. Un article défectueux reste couvert par les garanties légales.</p></div></details>
     <p class="section-action" data-anime><a href="/infos-pratiques" class="lien-fleche" data-libelle="Infos pratiques">Infos pratiques <span class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></p>
   </div>
-  <figure class="media media--motif faq-media" data-visuel aria-hidden="true" style="aspect-ratio:4 / 5">
-  <svg viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><pattern id="lin-m16" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#ebe3d4"/><path d="M0 1.5h6M0 4.5h6" stroke="#ddd2bf" stroke-width="1"/><path d="M1.5 0v6M4.5 0v6" stroke="#e4dac8" stroke-width=".8"/></pattern></defs><rect width="100%" height="100%" fill="url(#lin-m16)"/><g transform="translate(400 225)"><rect x="-60" y="-90" width="120" height="16" rx="6" fill="#b08a5a"/><rect x="-60" y="74" width="120" height="16" rx="6" fill="#b08a5a"/><rect x="-46" y="-74" width="92" height="148" fill="#c8963e"/><g stroke="#a87a2e" stroke-width="2" opacity=".7"><line x1="-46" y1="-70" x2="46" y2="-66"/><line x1="-46" y1="-59.5" x2="46" y2="-55.5"/><line x1="-46" y1="-49" x2="46" y2="-45"/><line x1="-46" y1="-38.5" x2="46" y2="-34.5"/><line x1="-46" y1="-28" x2="46" y2="-24"/><line x1="-46" y1="-17.5" x2="46" y2="-13.5"/><line x1="-46" y1="-7" x2="46" y2="-3"/><line x1="-46" y1="3.5" x2="46" y2="7.5"/><line x1="-46" y1="14" x2="46" y2="18"/><line x1="-46" y1="24.5" x2="46" y2="28.5"/><line x1="-46" y1="35" x2="46" y2="39"/><line x1="-46" y1="45.5" x2="46" y2="49.5"/><line x1="-46" y1="56" x2="46" y2="60"/><line x1="-46" y1="66.5" x2="46" y2="70.5"/></g><path d="M46 20 C 140 40, 180 140, 330 110" fill="none" stroke="#c8963e" stroke-width="3"/></g></svg>
+  <figure class="media faq-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/boutique-faq-784.webp" srcset="/assets/images/grok/boutique-faq-480.webp 480w, /assets/images/grok/boutique-faq-784.webp 784w" sizes="(max-width: 760px) 100vw, 35vw" alt="" width="784" height="1168" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
 </section>
 </main>
@@ -957,7 +962,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </ul>
     </div>
   </div>
-  <div class="conteneur pied-bas"><p>Maquette : les informations marquées « à compléter » seront fournies par l’atelier.</p><p>TVA non applicable, art. 293 B du CGI · ©&nbsp;L’Atelier&nbsp;2&nbsp;Marie</p></div>
+  <div class="conteneur pied-bas"><p>Maquette : les informations marquées « à compléter » seront fournies par l’atelier. Textures de lin du pied de page et de l’ouverture : images générées.</p><p>TVA non applicable, art. 293 B du CGI · ©&nbsp;L’Atelier&nbsp;2&nbsp;Marie</p></div>
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour barre-appeler" href="tel:+33607062141"><span class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.6 3.5 9 3l1.6 4.2-2 1.4a12 12 0 0 0 6.8 6.8l1.4-2L21 15l-.5 2.4A3 3 0 0 1 17.6 20C10 20 4 14 4 6.4a3 3 0 0 1 2.6-2.9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span>Appeler</span></a>

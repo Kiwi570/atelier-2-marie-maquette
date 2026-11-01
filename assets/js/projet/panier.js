@@ -1,8 +1,8 @@
 /* Panier simulé : une seule source (localStorage), identique dans tous les onglets (événement storage),
    donnée abîmée nettoyée au chargement sans bloquer le site, tiroir avec commande en 3 étapes, panier vidé
    après la commande simulée, montants et changements annoncés aux lecteurs d'écran. */
-import { fenetre } from './fenetre.js?v=1';
-import { prixFr, modele, calmeActif } from './outils.js?v=1';
+import { fenetre } from './fenetre.js?v=2';
+import { prixFr, modele, calmeActif } from './outils.js?v=2';
 
 const CLE = 'a2m:panier';
 let liste = [];

@@ -11,8 +11,8 @@ const rubrique = (c, k) => (c.page.gabarit === 'fiche' && k === 'boutique' ? 'ar
    le voile des changements de page et le pied de page dès qu'elles sont dans assets/images/grok/. */
 function textures() {
   const t = [];
-  if (grokPresent('texture-lin')) t.push(`--texture-lin:url("${imageVersion('grok/texture-lin', 1024)}")`);
-  if (grokPresent('texture-lin-marine')) t.push(`--texture-lin-marine:url("${imageVersion('grok/texture-lin-marine', 1024)}")`);
+  if (grokPresent('texture-lin')) t.push(`--texture-lin:url("${imageVersion('grok/texture-lin', 480)}")`);
+  if (grokPresent('texture-lin-marine')) t.push(`--texture-lin-marine:url("${imageVersion('grok/texture-lin-marine', 480)}")`);
   return t.length ? brut(` style='${t.join(';')}'`) : '';
 }
 
@@ -195,7 +195,7 @@ function pied(c) {
       </ul>
     </div>
   </div>
-  <div class="conteneur pied-bas"><p>${c.t('commun.maquette')}</p><p>${c.t('commun.tva')} · ©&nbsp;${brut(c.site.nom.replace(/ /g, '&nbsp;'))}</p></div>
+  <div class="conteneur pied-bas"><p>${c.t('commun.maquette')}${grokPresent('texture-lin-marine') ? html` ${c.t('commun.texturesIa')}` : ''}</p><p>${c.t('commun.tva')} · ©&nbsp;${brut(c.site.nom.replace(/ /g, '&nbsp;'))}</p></div>
 </footer>`;
 }
 
@@ -223,7 +223,7 @@ function ouverture(c) {
         <radialGradient id="tambour-bois" cx="50%" cy="50%" r="50%"><stop offset="88%" stop-color="#c9a272"/><stop offset="100%" stop-color="#a77f4f"/></radialGradient>
       </defs>
       <circle class="tambour-toile" cx="300" cy="300" r="246" fill="url(#tambour-lin)"/>
-      ${grokPresent('texture-lin') ? html`<clipPath id="tambour-rond"><circle cx="300" cy="300" r="246"/></clipPath><image href="${imageVersion('grok/texture-lin', 1024)}" x="54" y="54" width="492" height="492" preserveAspectRatio="xMidYMid slice" clip-path="url(#tambour-rond)"/>` : ''}
+      ${grokPresent('texture-lin') ? html`<clipPath id="tambour-rond"><circle cx="300" cy="300" r="246"/></clipPath><image href="${imageVersion('grok/texture-lin', 480)}" x="54" y="54" width="492" height="492" preserveAspectRatio="xMidYMid slice" clip-path="url(#tambour-rond)"/>` : ''}
       <circle cx="300" cy="300" r="262" fill="none" stroke="url(#tambour-bois)" stroke-width="22"/>
       <circle cx="300" cy="300" r="272" fill="none" stroke="#b58a58" stroke-width="3" opacity=".7"/>
       <rect x="282" y="20" width="36" height="22" rx="5" fill="#b58a58"/><circle cx="300" cy="16" r="9" fill="#d8b98a"/>

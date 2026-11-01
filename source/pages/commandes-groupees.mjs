@@ -20,7 +20,7 @@ export default (c) => {
     <p data-anime="gsap"><a class="bouton bouton--large" href="#devis" data-action-principale>${c.t('groupes.action')} ${icone('fleche')}</a> <span class="hero-info" data-info-cle>${icone('aiguille')} ${c.t('commun.delai')}</span></p>
   </div>
   <div class="page-tete-scene">
-    ${visuel(c, { grok: 'groupes-ouverture', motif: 'fil', alt: '', classe: 'page-tete-media', sizes: '(max-width: 760px) 100vw, 50vw', priorite: true, cadrage: '35% 60%' })}
+    ${visuel(c, { grok: 'groupes-ouverture', motif: 'fil', alt: '', classe: 'page-tete-media page-tete-media--portrait', sizes: '(max-width: 760px) 100vw, 34vw', priorite: true, cadrage: '50% 55%', ratio: '3 / 4' })}
     <div class="page-tete-photo">${c.media({ nom: 'produits/polo-de-camp-5', alt: c.s('groupes.alt'), sizes: '(max-width: 760px) 50vw, 18vw', priorite: true, classe: 'photo-posee' })}</div>
   </div>
 </section>

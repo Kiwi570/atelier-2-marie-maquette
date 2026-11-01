@@ -20,7 +20,7 @@ export default (c) => {
     </form>
     <p class="hero-actions" data-anime="gsap"><a class="bouton bouton--large" href="#articles" data-action-principale>${c.t('boutique.voirTout', { n: cat.produits.length })} ${icone('bas')}</a><span class="hero-info" data-info-cle>${icone('aiguille')} ${c.t('commun.delai')}</span></p>
   </div>
-  ${visuel(c, { grok: 'boutique-ouverture', motif: 'bobine', alt: '', classe: 'page-tete-media', sizes: '(max-width: 760px) 100vw, 45vw', priorite: true })}
+  ${visuel(c, { grok: 'boutique-ouverture-mobile', motif: 'bobine', alt: '', classe: 'page-tete-media', sizes: '(max-width: 760px) 100vw, 30vw', priorite: true, cadrage: '50% 42%' })}
 </section>
 
 <section class="boutique conteneur" id="articles" data-boutique>

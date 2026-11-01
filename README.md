@@ -60,10 +60,22 @@ Chaque image du document Grok a sa place réservée : tant qu’elle manque, un 
 | `legal-lin-mobile` | Mentions légales, Confidentialité et cookies | Image de tête (téléphone) | 9:16 |
 | `404-fil-casse` | Page 404 | Image de tête (ordinateur) | 16:9 |
 | `404-fil-casse-mobile` | Page 404 | Image de tête (téléphone) | 4:5 |
-| `texture-lin` | Tout le site | Toile du tambour de l’ouverture et cartouche du voile de transition | 1:1 |
-| `texture-lin-marine` | Tout le site | Fond de l’ouverture, du voile de transition et du pied de page | 1:1 |
+| `texture-lin` | Tout le site | Toile du tambour de l’ouverture | 1:1 |
+| `texture-lin-marine` | Tout le site | Fond du pied de page | 1:1 |
 
 Les images de l’accueil (« accueil-ouverture ») servent aussi de toile au lin animé (ordinateur, souris).
+
+Les 31 images ont été fournies en v2 (Grok, 1168 × 784 ou 784 × 1168 pixels, sans choix de format). Elles sont un peu
+douces sur les très grands écrans quand elles occupent toute la largeur (L’atelier, Noël) : à régénérer plus grandes
+si besoin, sous le même nom. « groupes-ouverture » est arrivée en double image : seule la moitié droite (le feu de camp)
+est utilisée (réglage `garder` dans `recu/lot-grok.json`).
+
+Images à refaire dans Grok (relecture de la v2), même nom et même format qu’avant :
+- `atelier-ouverture` : la machine à broder générée n’est pas réaliste ; refaire l’atelier sans machine, ou attendre une vraie photo.
+- `boutique-ouverture` : les bobines sont enfilées comme sur un boulier ; en attendant, l’image téléphone (étagère de cônes) sert aussi sur ordinateur
+  (dans `source/pages/boutique.mjs`, remettre `grok: 'boutique-ouverture'` quand la nouvelle image est là).
+- `savoir-faire-broderie` : ressemble trop à la couture ; montrer une brodeuse avec son cadre de broderie.
+- `boutique-faq` (facultatif) : la bobine dorée revient déjà dans l’accueil et la 404 ; un nuancier de fils varierait.
 
 ## Ce qui est simulé
 

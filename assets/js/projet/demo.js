@@ -1,7 +1,7 @@
 /* Démo de l'accueil : couleur du sac, prénom et couleur du fil, en aperçu sur le sac.
    Le bouton mène à la fiche du sac avec les choix déjà faits (paramètres dans l'adresse). */
-import { partir } from '../socle/index.js?v=1';
-import { calmeActif } from './outils.js?v=1';
+import { partir } from '../socle/index.js?v=2';
+import { calmeActif } from './outils.js?v=2';
 
 export function broder(texte) {
   if (!texte || calmeActif() || !texte.animate) return;

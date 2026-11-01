@@ -27,7 +27,7 @@ export default (c) => {
     <p class="hero-info" data-info-cle data-anime="gsap">${icone('aiguille')} ${c.t('commun.delai')} · ${c.t('commun.retrait')}</p>
     <p data-anime="gsap">${c.lien('boutique', { classe: 'bouton', texte: c.t('atelier.fin.action'), attrs: 'data-action-principale' })}</p>
   </div>
-  ${visuel(c, { grok: 'infos-ouverture', motif: 'colis', alt: c.s('infos.alt'), classe: 'page-tete-media', sizes: '100vw', priorite: true, cadrage: '70% 50%' })}
+  ${visuel(c, { grok: 'infos-ouverture', motif: 'colis', alt: c.s('infos.alt'), classe: 'page-tete-media', sizes: '100vw', priorite: true, cadrage: '62% 50%' })}
 </section>
 
 <div class="texte-long-grille conteneur">

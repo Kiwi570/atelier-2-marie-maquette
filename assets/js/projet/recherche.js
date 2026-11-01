@@ -1,6 +1,6 @@
 /* Recherche dans l'en-tête : fenêtre, résultats en direct (sans accents, sans majuscules, pluriels confondus). */
-import { fenetre } from './fenetre.js?v=1';
-import { prixFr, correspond, modele, lireIndex } from './outils.js?v=1';
+import { fenetre } from './fenetre.js?v=2';
+import { prixFr, correspond, modele, lireIndex } from './outils.js?v=2';
 
 export function initRecherche() {
   const el = document.querySelector('[data-recherche]');

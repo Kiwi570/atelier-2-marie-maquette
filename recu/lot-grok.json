@@ -1,0 +1,380 @@
+[
+ {
+  "source": "recu/grok/404-fil-casse-mobile.jpg",
+  "nom": "grok/404-fil-casse-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/404-fil-casse.jpg",
+  "nom": "grok/404-fil-casse",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-delai-mobile.jpg",
+  "nom": "grok/accueil-delai-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-delai.jpg",
+  "nom": "grok/accueil-delai",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-fin.jpg",
+  "nom": "grok/accueil-fin",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-noel-mobile.jpg",
+  "nom": "grok/accueil-noel-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-noel.jpg",
+  "nom": "grok/accueil-noel",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-ouverture-mobile.jpg",
+  "nom": "grok/accueil-ouverture-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "nom": "grok/accueil-ouverture",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/atelier-campagne.jpg",
+  "nom": "grok/atelier-campagne",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/atelier-ouverture-mobile.jpg",
+  "nom": "grok/atelier-ouverture-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/atelier-ouverture.jpg",
+  "nom": "grok/atelier-ouverture",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/boutique-faq.jpg",
+  "nom": "grok/boutique-faq",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/boutique-ouverture-mobile.jpg",
+  "nom": "grok/boutique-ouverture-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/boutique-ouverture.jpg",
+  "nom": "grok/boutique-ouverture",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/contact-ouverture-mobile.jpg",
+  "nom": "grok/contact-ouverture-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "nom": "grok/contact-ouverture",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/groupes-devis.jpg",
+  "nom": "grok/groupes-devis",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/groupes-etapes.jpg",
+  "nom": "grok/groupes-etapes",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/groupes-ouverture-mobile.jpg",
+  "nom": "grok/groupes-ouverture-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/groupes-ouverture.jpg",
+  "nom": "grok/groupes-ouverture",
+  "cadrage": [
+   50,
+   50
+  ],
+  "garder": [
+   51.5,
+   0,
+   100,
+   100
+  ],
+  "largeurs": [
+   480,
+   566
+  ]
+ },
+ {
+  "source": "recu/grok/infos-ouverture-mobile.jpg",
+  "nom": "grok/infos-ouverture-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/infos-ouverture.jpg",
+  "nom": "grok/infos-ouverture",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/legal-lin-mobile.jpg",
+  "nom": "grok/legal-lin-mobile",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/legal-lin.jpg",
+  "nom": "grok/legal-lin",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   640,
+   1168
+  ]
+ },
+ {
+  "source": "recu/grok/savoir-faire-broderie.jpg",
+  "nom": "grok/savoir-faire-broderie",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/savoir-faire-couture.jpg",
+  "nom": "grok/savoir-faire-couture",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/savoir-faire-flex.jpg",
+  "nom": "grok/savoir-faire-flex",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/savoir-faire-presse.jpg",
+  "nom": "grok/savoir-faire-presse",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/texture-lin-marine.jpg",
+  "nom": "grok/texture-lin-marine",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/texture-lin.jpg",
+  "nom": "grok/texture-lin",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   784
+  ]
+ }
+]

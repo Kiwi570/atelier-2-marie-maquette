@@ -14,7 +14,7 @@ export default (c) => html`
     <h1 class="page-titre">${c.t('mentions.titre')}</h1>
     <nav data-sommaire aria-label="${c.s('commun.sommaire')}"><ul>${sections.map((s) => html`<li><a href="#${s}" data-sans-transition>${c.t(`mentions.${s}.titre`)}</a></li>`)}</ul></nav>
   </div>
-  ${visuel(c, { grok: 'legal-lin', motif: 'fil', alt: c.s('mentions.alt'), classe: 'page-tete-media', sizes: '100vw', priorite: true })}
+  ${visuel(c, { grok: 'legal-lin', motif: 'fil', alt: c.s('mentions.alt'), classe: 'page-tete-media', sizes: '100vw', priorite: true, cadrage: '50% 52%' })}
 </section>
 <div class="texte-long texte-long--legal conteneur" data-sans-visuel>
   ${sections.map((s) => html`<section id="${s}" data-sans-visuel${s === 'fiche' ? ' class="fiche-a-completer"' : ''}><h2>${c.t(`mentions.${s}.titre`)}</h2><p>${s === 'confidentialite' ? html`${c.lien('confidentialite', { classe: 'lien-fleche lien-ligne', texte: c.t('mentions.confidentialite.texte') })}` : c.t(`mentions.${s}.texte`)}</p></section>`)}

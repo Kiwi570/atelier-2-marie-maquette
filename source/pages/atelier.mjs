@@ -31,8 +31,8 @@ export default (c) => {
 <section class="machines conteneur" id="machines">
   <div class="section-tete"><h2 class="titre-section" data-brode>${c.t('atelier.machines.titre')}</h2><p data-anime>${c.t('atelier.machines.texte')}</p></div>
   <ul class="machines-grille">
-    ${machines.map(([k, grok, motif]) => html`<li class="machine" data-anime>
-      ${visuel(c, { grok, motif, alt: '', classe: 'machine-media', sizes: '(max-width: 760px) 100vw, 25vw', ratio: '4 / 5' })}
+    ${machines.map(([k, , motif]) => html`<li class="machine" data-anime>
+      ${visuel(c, { motif, alt: '', classe: 'machine-media', sizes: '(max-width: 760px) 100vw, 25vw', ratio: '4 / 5' })}
       <h3>${c.t(`atelier.machines.${k}`)}</h3>
       <p>${c.t(`atelier.machines.${k}Texte`)}</p>
     </li>`)}
@@ -60,7 +60,7 @@ export default (c) => {
       <p data-anime>${c.t('atelier.lieu.texte')}</p>
       <p class="fin-actions" data-anime>${c.lien('boutique', { classe: 'bouton bouton--large', texte: c.t('atelier.fin.action') })}<a class="bouton bouton--contour bouton--large" href="tel:${c.site.contact.telephoneLien}">${icone('telephone')} ${c.site.contact.telephone}</a></p>
     </div>
-    ${visuel(c, { grok: 'atelier-campagne', motif: 'fil', alt: c.s('atelier.lieu.alt'), classe: 'lieu-media', sizes: '(max-width: 760px) 100vw, 45vw', ratio: '4 / 5' })}
+    ${visuel(c, { grok: 'atelier-campagne', motif: 'fil', alt: c.s('atelier.lieu.alt'), classe: 'lieu-media', sizes: '(max-width: 760px) 100vw, 45vw', ratio: '4 / 5', cadrage: '72% 55%' })}
   </div>
 </section>
 

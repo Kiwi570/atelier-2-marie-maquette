@@ -1,9 +1,9 @@
 /* Fiche produit : vignettes, loupe (souris seulement, sur la photo marquée), visionneuse (un lien par photo,
    flèches, glissement, Échap), choix préremplis par l'adresse, aperçu du texte brodé, ajout au panier. */
-import { fenetre } from './fenetre.js?v=1';
-import { ajouter } from './panier.js?v=1';
-import { broder } from './demo.js?v=1';
-import { souris, calmeActif, modele } from './outils.js?v=1';
+import { fenetre } from './fenetre.js?v=2';
+import { ajouter } from './panier.js?v=2';
+import { broder } from './demo.js?v=2';
+import { souris, calmeActif, modele } from './outils.js?v=2';
 
 export function initFiche() {
   const fiche = document.querySelector('[data-fiche]');

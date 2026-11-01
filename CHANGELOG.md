@@ -2,6 +2,29 @@
 
 Chaque version ajoute sa partie en tête de ce fichier, construite en comparant l'archive précédente et la nouvelle, jamais de mémoire.
 
+## v2 — les images Grok
+
+- **31 illustrations générées** posées à leur emplacement (dossier `assets/images/grok/`), chacune avec la mention
+  « Illustration générée » : ouvertures des pages sur ordinateur et téléphone (accueil, boutique, commandes groupées,
+  L’atelier, infos pratiques, contact, pages légales, 404), fond de la section Noël, quatre gestes du savoir-faire,
+  colis du délai et fin de l’accueil, étapes et devis des commandes groupées, FAQ de la boutique, campagne de l’atelier.
+- **Textures de lin** : la toile du tambour de l’ouverture et le fond bleu marine du pied de page
+  (mention ajoutée en bas de page). Le voile des changements de page reste uni, pour un passage net.
+- **Accueil** : le lin animé reprend la photo de l’ouverture sans la déformer (cadrage identique à la photo affichée) ;
+  il ne se recalcule que lorsque la souris bouge et se fige pendant le défilement (page plus fluide).
+- **Chargement** : les images du premier écran se décodent tout de suite (plus de blanc au retour arrière).
+- **Commandes groupées** : la veillée autour du feu en portrait à côté du titre (l’image reçue était double,
+  seule la moitié du feu de camp est gardée) ; la photo du polo passe à gauche sur téléphone.
+- **Boutique sur téléphone** : l’image du haut de page s’affiche en bandeau sous le titre.
+- **Textes de remplacement** : sac « Amaury » (anses beiges) et campagne de l’atelier décrits d’après les vraies images.
+- **Après relecture des captures** :
+  - accueil : le fil décoratif en pointillé ne passe plus sur les illustrations (ouverture et savoir-faire) ; la mention
+    « Illustration générée » de l’ouverture passe en haut à gauche, loin du sac et du sweat, qui sont de vraies photos ;
+  - L’atelier : les trois machines gardent leurs dessins (les images du savoir-faire de l’accueil n’y sont plus répétées) ;
+    « À Kernascléden » : boutons alignés sur le texte, image jamais plus haute que l’écran ;
+  - boutique : l’étagère de cônes de fil (image prévue pour le téléphone) remplace sur ordinateur le présentoir peu réaliste ;
+  - pages légales : image recadrée sur la couture dorée.
+
 ## v1 — la base
 
 - **Pages** : accueil, boutique (51 articles réels), une fiche par article, commandes groupées (scouts, maîtrises,

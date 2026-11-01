@@ -1,7 +1,7 @@
 /* Boutique : filtres (univers, occasion, technique), recherche et tri gardés dans l'adresse de la page.
    Passage en fondu sans moment vide, rubriques vides grisées, positions recalculées après filtrage. */
-import { rafraichir, aller } from '../socle/index.js?v=1';
-import { correspond, modele, lireIndex, calmeActif } from './outils.js?v=1';
+import { rafraichir, aller } from '../socle/index.js?v=2';
+import { correspond, modele, lireIndex, calmeActif } from './outils.js?v=2';
 
 export function initBoutique() {
   const zone = document.querySelector('[data-boutique]');

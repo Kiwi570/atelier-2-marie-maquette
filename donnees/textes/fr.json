@@ -90,7 +90,8 @@
     "facebookNom": "Facebook",
     "nouvelOnglet": "nouvel onglet",
     "logoNom1": "L’Atelier",
-    "logoNom2": "2 Marie"
+    "logoNom2": "2 Marie",
+    "texturesIa": "Textures de lin du pied de page et de l’ouverture : images générées."
   },
   "pages": {
     "accueil": {
@@ -165,7 +166,7 @@
       "texte": "Sweats de patrouille, sacs au prénom, cierges, serviettes brodées : la plupart des articles sont personnalisés à la commande, dans l’atelier familial de Kernascléden.",
       "action": "Personnaliser un article",
       "info": "Fabrication en 3 semaines environ · retrait possible à l’atelier",
-      "alt": "Sac de voyage noir brodé du prénom Amaury en fil doré",
+      "alt": "Sac de voyage noir à anses beiges, brodé du prénom Amaury",
       "alt2": "Sweat à capuche marron marqué en flex d’une tête de cerf et de la devise Semper parati",
       "defiler": "Découvrir"
     },
@@ -455,7 +456,7 @@
     "lieu": {
       "titre": "À Kernascléden, dans le Morbihan",
       "texte": "L’atelier se trouve au 24 Kerchopine, à Kernascléden, au nord de Lorient. Les commandes peuvent y être retirées en main propre : modalités à convenir par téléphone.",
-      "alt": "Campagne bretonne au petit matin, haies et chemin creux"
+      "alt": "Campagne bretonne au petit matin, linge brodé posé sur un muret de pierre"
     },
     "avis": {
       "titre": "Ils ont commandé",

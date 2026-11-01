@@ -1,14 +1,14 @@
 /* L'Atelier 2 Marie — effets propres au projet. Le socle gère l'ouverture, les transitions, l'en-tête,
    le menu, le mode calme, les boucles, les mesures et les formulaires : ce fichier règle le reste. */
-import { demarrer } from './socle/index.js?v=1';
-import { initPanier } from './projet/panier.js?v=1';
-import { initRecherche } from './projet/recherche.js?v=1';
-import { initBoutique } from './projet/boutique.js?v=1';
-import { initFiche } from './projet/fiche.js?v=1';
-import { initDevis } from './projet/devis.js?v=1';
-import { initDemo } from './projet/demo.js?v=1';
-import { initLin } from './projet/lin.js?v=1';
-import { preparerEffets, revelerPremierEcran, etatFinalEffets } from './projet/effets.js?v=1';
+import { demarrer } from './socle/index.js?v=2';
+import { initPanier } from './projet/panier.js?v=2';
+import { initRecherche } from './projet/recherche.js?v=2';
+import { initBoutique } from './projet/boutique.js?v=2';
+import { initFiche } from './projet/fiche.js?v=2';
+import { initDevis } from './projet/devis.js?v=2';
+import { initDemo } from './projet/demo.js?v=2';
+import { initLin } from './projet/lin.js?v=2';
+import { preparerEffets, revelerPremierEcran, etatFinalEffets } from './projet/effets.js?v=2';
 
 const gsap = window.gsap;
 const essayer = (f) => { try { f(); } catch (err) { console.error('[atelier]', f.name, err); } };

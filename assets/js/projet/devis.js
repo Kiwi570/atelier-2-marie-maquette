@@ -1,8 +1,8 @@
 /* Demande de devis en 4 étapes : déroulé annoncé, hauteur animée entre les étapes, récapitulatif en direct
    (estimation d'après les prix de la boutique, vérifiable : data-total), date au plus tôt avec le délai de fabrication.
    L'envoi final est géré par le socle (formulaire simulé, pas de double envoi). */
-import { rafraichir } from '../socle/index.js?v=1';
-import { prixFr, modele, calmeActif } from './outils.js?v=1';
+import { rafraichir } from '../socle/index.js?v=2';
+import { prixFr, modele, calmeActif } from './outils.js?v=2';
 
 export function initDevis() {
   const form = document.querySelector('[data-devis]');

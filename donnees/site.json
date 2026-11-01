@@ -2,17 +2,43 @@
   "nom": "L’Atelier 2 Marie",
   "adresse": "https://atelier-2-marie-maquette.vercel.app",
   "siteActuel": "atelier-2-marie.fr",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "boutique", "commandes-groupees", "atelier", "infos-pratiques", "contact"],
-  "actionEntete": { "page": "boutique" },
-  "couleurs": { "fond": "#f2ece1", "texte": "#1c2a44", "voile": "#1c2a44", "ouverture": "#1c2a44", "menu": "#f2ece1", "theme": "#f2ece1" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "boutique",
+    "commandes-groupees",
+    "atelier",
+    "infos-pratiques",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "boutique"
+  },
+  "couleurs": {
+    "fond": "#f2ece1",
+    "texte": "#1c2a44",
+    "voile": "#1c2a44",
+    "ouverture": "#1c2a44",
+    "menu": "#f2ece1",
+    "theme": "#f2ece1"
+  },
   "contact": {
-    "telephone": "06 07 06 21 41", "telephoneLien": "+33607062141", "email": "alix.cochet@sfr.fr",
-    "adresse": "24 Kerchopine, 56540 Kernascléden", "rue": "24 Kerchopine", "codePostal": "56540", "ville": "Kernascléden",
+    "telephone": "06 07 06 21 41",
+    "telephoneLien": "+33607062141",
+    "email": "alix.cochet@sfr.fr",
+    "adresse": "24 Kerchopine, 56540 Kernascléden",
+    "rue": "24 Kerchopine",
+    "codePostal": "56540",
+    "ville": "Kernascléden",
     "facebook": "https://www.facebook.com/MarieAlixCochet"
   },
-  "polices": ["/assets/polices/fraunces.woff", "/assets/polices/instrument-sans.woff"],
+  "polices": [
+    "/assets/polices/fraunces.woff",
+    "/assets/polices/instrument-sans.woff"
+  ],
   "imagePartage": "produits/sac-prenom-1-1280.webp",
   "curseur": true,
   "delaiJours": 21

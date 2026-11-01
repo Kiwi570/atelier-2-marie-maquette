@@ -720,8 +720,7 @@ html[data-loupe-active] .fiche-photo { cursor: none; }
 }
 
 /* Textures de lin (images Grok), posées dès qu'elles sont fournies (variables écrites dans la page par le générateur). */
-[data-voile], .pied, .ouverture-panneau { background-image: var(--texture-lin-marine, none); background-size: 520px; }
-.voile-cartouche { background-image: var(--texture-lin, none); background-size: cover; }
+.pied { background-image: var(--texture-lin-marine, none); background-size: cover; background-position: center; }
 
 /* ---------- Relecture (regard neuf) ---------- */
 /* En-tête : sceau de la rose et nom de l'atelier, lisible à toutes les tailles. */
@@ -775,7 +774,8 @@ html[data-loupe-active] .fiche-photo { cursor: none; }
 @media (max-width: 760px) { .page-tete--bande .page-tete-media { aspect-ratio: 16 / 7 !important; } }
 
 /* Boutique : haut compact, les articles arrivent vite ; pastilles sur plusieurs lignes sur ordinateur. */
-.page-tete--boutique { grid-template-columns: minmax(0, 1.35fr) minmax(0, .65fr); padding-bottom: 24px !important; }
+@media (min-width: 901px) { .page-tete--boutique { grid-template-columns: minmax(0, 1.35fr) minmax(0, .65fr); } }
+.page-tete--boutique { padding-bottom: 24px !important; }
 .page-tete--boutique .page-tete-media { aspect-ratio: 4 / 3 !important; max-height: 300px; }
 .page-tete--boutique .page-intro { margin-bottom: .2em; }
 @media (min-width: 761px) { .puces { flex-wrap: wrap; overflow: visible; } }
@@ -900,3 +900,22 @@ html:not(.js) .page-tete--plein .page-tete-media { position: relative; inset: au
   main > .fil-ariane { padding-top: calc(var(--entete-h) + 4px) !important; }
 }
 @media (max-width: 380px) { .fiche-titre { font-size: clamp(1.5rem, 7.4vw, 1.9rem); } }
+
+/* Commandes groupées : la veillée en portrait à côté du titre. */
+.page-tete-scene .page-tete-media--portrait { width: min(100%, calc(64svh * .75)); margin-inline: auto; }
+@media (max-width: 900px) { .page-tete-scene .page-tete-media--portrait { width: 100%; aspect-ratio: 16 / 10 !important; } }
+
+/* Mention « Illustration générée » toujours lisible, au-dessus des objets posés sur la photo. */
+.hero-scene .mention-ia { z-index: 6; }
+@media (max-width: 900px) { .page-tete-photo { right: auto; left: 4%; } }
+@media (max-width: 760px) { .noel-fond::after { background: color-mix(in srgb, var(--lin) 86%, transparent); } }
+
+/* Mention « Illustration générée » placée là où rien ne la recouvre. */
+.sf-macro .mention-ia { right: auto; left: 8px; bottom: auto; top: 8px; }
+.page-tete--plein .page-tete-media .mention-ia { bottom: auto; top: calc(var(--entete-h) + 8px); }
+
+/* v2, regard neuf : la mention de l'ouverture de l'accueil se tient loin des produits réels posés sur l'image. */
+.hero-scene .hero-fond .mention-ia { right: auto; left: 10px; bottom: auto; top: 10px; }
+/* L'atelier, « À Kernascléden » : boutons alignés sur le texte, image jamais plus haute que l'écran. */
+.lieu .fin-actions { justify-content: flex-start; }
+@media (min-width: 761px) { .lieu-media { aspect-ratio: auto !important; width: 100%; height: min(78svh, 680px); } }

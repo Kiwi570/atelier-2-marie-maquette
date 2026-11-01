@@ -2,7 +2,7 @@
    promesse et action, l'occasion du moment (Noël), les univers, les nouveautés, la personnalisation,
    le savoir-faire, le délai, les commandes groupées, l'atelier et les avis, le contact. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { visuel, prix, carteProduit, urlProduit, icone, etoiles } from '../gabarits/outils.mjs';
+import { visuel, prix, carteProduit, urlProduit, icone, etoiles, grokPresent } from '../gabarits/outils.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'produits/sac-prenom-1-1280.webp' };
 
@@ -72,7 +72,7 @@ export default (c) => {
   <div class="hero-scene" data-hero-scene>
     ${visuel(c, { grok: 'accueil-ouverture', motif: 'lin', alt: '', classe: 'hero-fond', sizes: '(max-width: 760px) 100vw, 55vw', priorite: true, cadrage: '30% 50%' })}
     <canvas class="hero-lin" data-lin aria-hidden="true" data-audit-ignorer></canvas>
-    <svg class="hero-fil" viewBox="0 0 600 600" preserveAspectRatio="none" aria-hidden="true"><path d="M60 560 C 120 380, 300 470, 330 300 S 520 120, 560 40" pathLength="1"/></svg>
+    ${grokPresent('accueil-ouverture') ? '' : brut('<svg class="hero-fil" viewBox="0 0 600 600" preserveAspectRatio="none" aria-hidden="true"><path d="M60 560 C 120 380, 300 470, 330 300 S 520 120, 560 40" pathLength="1"/></svg>')}
     <div class="hero-objet hero-objet--sac" data-anime="gsap">${c.media({ nom: 'detoures/sac-prenom-1', alt: c.s('accueil.hero.alt'), sizes: '(max-width: 760px) 80vw, 36vw', priorite: true, classe: 'media--detoure' })}</div>
     <div class="hero-objet hero-objet--sweat" data-anime="gsap">${c.media({ nom: 'detoures/sweat-patrouille-1', alt: c.s('accueil.hero.alt2'), sizes: '(max-width: 760px) 40vw, 20vw', classe: 'media--detoure' })}</div>
   </div>
@@ -170,9 +170,9 @@ export default (c) => {
         ${visuel(c, { grok: grokSF[e], motif: motifsSF[e], alt: '', classe: 'sf-macro', sizes: '(max-width: 760px) 90vw, 30vw', ratio: '4 / 5' })}
         <figure class="sf-exemple">${c.media({ nom: exemplesSF[e], alt: c.s(`accueil.savoirFaire.${e}.exemple`).replace(/^Exemple : /, ''), sizes: '(max-width: 760px) 50vw, 16vw', classe: 'sf-exemple-media' })}<figcaption>${c.t(`accueil.savoirFaire.${e}.exemple`)}</figcaption></figure>
       </div>`)}
-      <svg class="sf-effet" viewBox="0 0 400 500" aria-hidden="true" data-sf-effet>
+      ${etapesSF.every((e) => grokPresent(grokSF[e])) ? '' : brut(`<svg class="sf-effet" viewBox="0 0 400 500" aria-hidden="true" data-sf-effet>
         <path class="sf-point" d="M40 420 C 120 340, 160 380, 210 300 S 330 180, 360 90" pathLength="1"/>
-      </svg>
+      </svg>`)}
     </div>
   </div>
 </section>

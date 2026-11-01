@@ -1,6 +1,6 @@
 /* Fenêtres du projet (recherche, panier, visionneuse) : ouverture depuis un bouton, Échap et fond pour fermer,
    focus gardé dedans puis rendu au bouton, page bloquée derrière, bande de la barre de défilement suivie. */
-import { bloquerDefilement, debloquerDefilement, suivre, lacher } from '../socle/index.js?v=1';
+import { bloquerDefilement, debloquerDefilement, suivre, lacher } from '../socle/index.js?v=2';
 
 const ouvertes = [];
 

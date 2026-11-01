@@ -1,8 +1,8 @@
 /* Effets « Fil d'or » : titres cousus, fil d'or continu, objets qui flottent, articles de Noël suspendus,
    univers en galerie horizontale, savoir-faire en 4 temps, frise cousue, éventail, carte brodée,
    cartes qui s'inclinent, boutons magnétiques. Tout est coupé en mode calme (état final directement). */
-import { boucle, etat } from '../socle/index.js?v=1';
-import { calmeActif, souris } from './outils.js?v=1';
+import { boucle, etat } from '../socle/index.js?v=2';
+import { calmeActif, souris } from './outils.js?v=2';
 
 const gsap = () => window.gsap;
 const ST = () => window.ScrollTrigger;
